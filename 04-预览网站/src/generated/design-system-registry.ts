@@ -23,7 +23,7 @@ export type DesignSystemEntry = {
   retrieval: { recommendedContextPaths: string[]; keywords: string[]; states: string[]; variantSummary: string }
 }
 
-export const syncGeneratedAt = "2026-05-07T08:59:33+00:00"
+export const syncGeneratedAt = "2026-05-07T09:00:31+00:00"
 export const designSystemCategories = [
   {
     "id": "foundation",
