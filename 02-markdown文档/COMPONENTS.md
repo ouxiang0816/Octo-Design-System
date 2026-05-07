@@ -183,6 +183,21 @@ const [value, setValue] = useState('页面设计')
 />
 ```
 
+**组件源码**
+
+外部项目无法通过 npm 安装时，从以下地址获取源码直接复制到项目中使用：
+
+```
+https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%80%E5%8F%91%E7%BB%84%E4%BB%B6/select-box.tsx
+```
+
+依赖：`lucide-react`（Check、ChevronDown 图标），以及同目录 `utils.ts` 中的 `cx` 工具函数：
+```
+https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%80%E5%8F%91%E7%BB%84%E4%BB%B6/utils.ts
+```
+
+**禁止**自己重新实现下拉选择，必须复用此源码，否则会导致选中态、✓ 图标、边框焦点等细节与规范不符。
+
 ---
 
 ## Checkbox 复选框
@@ -586,6 +601,21 @@ const [value, setValue] = useState('页面设计')
 // 非受控用法（组件内部管理状态）
 <Steps items={['选择文件', '填写信息', '确认上传']} />
 ```
+
+**组件源码**
+
+外部项目无法通过 npm 安装时，从以下地址获取源码直接复制到项目中使用：
+
+```
+https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%80%E5%8F%91%E7%BB%84%E4%BB%B6/steps.tsx
+```
+
+依赖：`lucide-react`（Check、X 图标），以及同目录 `utils.ts` 中的 `cx` 工具函数：
+```
+https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%80%E5%8F%91%E7%BB%84%E4%BB%B6/utils.ts
+```
+
+**禁止**自己重新实现步骤条，必须复用此源码，否则会导致步骤状态颜色、连接线、图标等细节与规范不符。
 
 ---
 
