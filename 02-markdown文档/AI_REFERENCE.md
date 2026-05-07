@@ -1,6 +1,6 @@
 # Octo Design System · AI Reference
 
-> 自动生成，请勿手动编辑。最后同步：2026-05-07 04:05 UTC
+> 自动生成，请勿手动编辑。最后同步：2026-05-07 08:59 UTC
 > 供 Claude Code / Codex / OpenCode 等 AI 编码工具读取，确保生成代码符合 Octo 设计规范。
 
 ---
@@ -151,9 +151,29 @@ placeholder 文字：12px `#777777`；帮助文字与错误提示共用位置（
 
 下拉面板：bg `#FFFFFF`，阴影 `0px 4px 4px rgba(0,0,0,0.16)`，圆角 4px；  
 下拉项：px-8 py-4，高约 30px，文字 14px `#191919`；  
-选中项背景 `#EFF6FF`。  
+选中项背景 `#EFF6FF`，右侧显示 `✓` 图标（`#0067D1`）。  
 变体：单选 / 多选（多选 Tag 在触发器内，bg `#DBEAFE`）；可搜索 / 不可搜索。  
 规则：下拉宽度 ≥ 触发器宽度；超出视口时向上展开。
+
+**Props（React 组件）**
+
+| Prop | 类型 | 说明 |
+|---|---|---|
+| `options` | `string[]` | 选项列表，必填 |
+| `value` | `string` | 当前选中值 |
+| `onChange` | `(value: string) => void` | 选中回调 |
+| `label` | `string` | 触发器显示文本（不传则显示 value） |
+
+**使用示例**
+
+```tsx
+const [value, setValue] = useState('页面设计')
+<SelectBox
+  options={['组件库', '页面设计', '图标资产', '插画素材']}
+  value={value}
+  onChange={setValue}
+/>
+```
 
 ### Checkbox（复选框）
 
@@ -290,6 +310,24 @@ placeholder 文字：12px `#777777`；帮助文字与错误提示共用位置（
 | 错误 | 红底 `#FF4D4F` + 白 ✕ | `#DFDFDF` |
 
 变体：水平 / 垂直；可点击 / 不可点击；仅用于流程进度，不用于内容切换。
+
+**Props（React 组件）**
+
+| Prop | 类型 | 说明 |
+|---|---|---|
+| `items` | `string[]` | 步骤标签数组，必填 |
+| `currentStep` | `number` | 当前步骤索引（0-based），不传时组件内部管理 |
+| `onStepChange` | `(step: number) => void` | 步骤切换回调 |
+
+**使用示例**
+
+```tsx
+// 受控用法（外部控制步骤）
+<Steps items={['选择文件', '填写信息', '确认上传']} currentStep={1} onStepChange={setStep} />
+
+// 非受控用法（组件内部管理状态）
+<Steps items={['选择文件', '填写信息', '确认上传']} />
+```
 
 ### Avatar（头像）
 

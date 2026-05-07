@@ -2,8 +2,21 @@ import { useState } from 'react'
 import { Check, X } from 'lucide-react'
 import { cx } from './utils'
 
-export function Steps({ items = ['步骤一', '步骤二', '步骤三', '步骤四'] }: { items?: string[] }) {
-  const [currentStep, setCurrentStep] = useState(1)
+export function Steps({
+  items = ['步骤一', '步骤二', '步骤三', '步骤四'],
+  currentStep: externalStep,
+  onStepChange,
+}: {
+  items?: string[]
+  currentStep?: number
+  onStepChange?: (step: number) => void
+}) {
+  const [internalStep, setInternalStep] = useState(1)
+  const currentStep = externalStep ?? internalStep
+  const setCurrentStep = (step: number) => {
+    if (externalStep === undefined) setInternalStep(step)
+    onStepChange?.(step)
+  }
   return (
     <div className="flex min-w-[520px] flex-col gap-3">
       <div className="flex items-start">

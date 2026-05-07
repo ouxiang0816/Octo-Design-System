@@ -35,4 +35,22 @@
 
 变体：水平 / 垂直；可点击 / 不可点击；仅用于流程进度，不用于内容切换。
 
+**Props（React 组件）**
+
+| Prop | 类型 | 说明 |
+|---|---|---|
+| `items` | `string[]` | 步骤标签数组，必填 |
+| `currentStep` | `number` | 当前步骤索引（0-based），不传时组件内部管理 |
+| `onStepChange` | `(step: number) => void` | 步骤切换回调 |
+
+**使用示例**
+
+```tsx
+// 受控用法（外部控制步骤）
+<Steps items={['选择文件', '填写信息', '确认上传']} currentStep={1} onStepChange={setStep} />
+
+// 非受控用法（组件内部管理状态）
+<Steps items={['选择文件', '填写信息', '确认上传']} />
+```
+
 <!-- DS_SPEC_END -->

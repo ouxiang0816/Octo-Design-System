@@ -23,7 +23,7 @@ export type DesignSystemEntry = {
   retrieval: { recommendedContextPaths: string[]; keywords: string[]; states: string[]; variantSummary: string }
 }
 
-export const syncGeneratedAt = "2026-05-07T04:05:16+00:00"
+export const syncGeneratedAt = "2026-05-07T08:59:33+00:00"
 export const designSystemCategories = [
   {
     "id": "foundation",
@@ -898,7 +898,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Button",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "button",
@@ -937,7 +937,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.button.md",
         "02-markdown文档/figma/component.button.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.button",
@@ -983,7 +983,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "IconButton",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "icon-button",
@@ -1006,7 +1006,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.icon-button.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.icon-button",
@@ -1053,7 +1053,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "TextLink",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "text-link",
@@ -1073,7 +1073,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.text-link.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.text-link",
@@ -1117,7 +1117,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Input",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "input",
@@ -1140,7 +1140,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.input.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.input",
@@ -1227,7 +1227,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "SearchInput",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "search",
@@ -1265,7 +1265,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.search.md",
         "02-markdown文档/figma/component.search.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.search",
@@ -1352,7 +1352,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "SelectBox",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "select",
@@ -1388,7 +1388,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.select.md",
         "02-markdown文档/figma/component.select.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.select",
@@ -1432,7 +1432,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Checkbox",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "checkbox",
@@ -1471,7 +1471,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.checkbox.md",
         "02-markdown文档/figma/component.checkbox.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.checkbox",
@@ -1517,7 +1517,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Radio",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "radio",
@@ -1555,7 +1555,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.radio.md",
         "02-markdown文档/figma/component.radio.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.radio",
@@ -1600,7 +1600,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Switch",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "switch",
@@ -1638,7 +1638,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.switch.md",
         "02-markdown文档/figma/component.switch.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.switch",
@@ -1806,7 +1806,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Tag",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "tag-chip",
@@ -1846,7 +1846,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.tag-chip.md",
         "02-markdown文档/figma/component.tag-chip.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.tag-chip",
@@ -1894,7 +1894,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Stepper",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "步进器",
@@ -1930,7 +1930,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.步进器.md",
         "02-markdown文档/figma/component.步进器.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.步进器",
@@ -1973,7 +1973,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "FileUpload",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "file-upload",
@@ -2009,7 +2009,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.file-upload.md",
         "02-markdown文档/figma/component.file-upload.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.file-upload",
@@ -2093,7 +2093,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "FileCard",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "file-card",
@@ -2129,7 +2129,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.file-card.md",
         "02-markdown文档/figma/component.file-card.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.file-card",
@@ -2253,7 +2253,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "DrawerPreview",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "drawer-sheet",
@@ -2273,7 +2273,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.drawer-sheet.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.drawer-sheet",
@@ -2477,7 +2477,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "TopNavigation",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "top-navigation",
@@ -2497,7 +2497,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.top-navigation.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.top-navigation",
@@ -2541,7 +2541,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "SideNavigation",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "side-navigation",
@@ -2577,7 +2577,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.side-navigation.md",
         "02-markdown文档/figma/component.side-navigation.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.side-navigation",
@@ -2621,7 +2621,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Breadcrumb",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "breadcrumb",
@@ -2657,7 +2657,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.breadcrumb.md",
         "02-markdown文档/figma/component.breadcrumb.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.breadcrumb",
@@ -2700,7 +2700,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Tabs",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "tabs",
@@ -2737,7 +2737,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.tabs.md",
         "02-markdown文档/figma/component.tabs.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.tabs",
@@ -2861,7 +2861,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Steps",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "steps",
@@ -2900,7 +2900,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.steps.md",
         "02-markdown文档/figma/component.steps.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.steps",
@@ -3306,7 +3306,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Avatar",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "avatar",
@@ -3326,7 +3326,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.avatar.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.avatar",
@@ -3369,7 +3369,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Badge",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "badge",
@@ -3389,7 +3389,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/BASE.md",
         "02-markdown文档/components/component.badge.md",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.badge",
@@ -3712,7 +3712,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "component": {
       "exportName": "Toast",
       "path": "03-开发组件/components.tsx",
-      "examplePath": "03-开发组件/interactiveDemos.tsx"
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
     },
     "preview": {
       "anchor": "toast-message",
@@ -3748,7 +3748,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/components/component.toast-message.md",
         "02-markdown文档/figma/component.toast-message.context.json",
         "03-开发组件/components.tsx",
-        "03-开发组件/interactiveDemos.tsx"
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
         "component.toast-message",

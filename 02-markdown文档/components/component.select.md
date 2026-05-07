@@ -33,8 +33,28 @@
 
 下拉面板：bg `#FFFFFF`，阴影 `0px 4px 4px rgba(0,0,0,0.16)`，圆角 4px；  
 下拉项：px-8 py-4，高约 30px，文字 14px `#191919`；  
-选中项背景 `#EFF6FF`。  
+选中项背景 `#EFF6FF`，右侧显示 `✓` 图标（`#0067D1`）。  
 变体：单选 / 多选（多选 Tag 在触发器内，bg `#DBEAFE`）；可搜索 / 不可搜索。  
 规则：下拉宽度 ≥ 触发器宽度；超出视口时向上展开。
+
+**Props（React 组件）**
+
+| Prop | 类型 | 说明 |
+|---|---|---|
+| `options` | `string[]` | 选项列表，必填 |
+| `value` | `string` | 当前选中值 |
+| `onChange` | `(value: string) => void` | 选中回调 |
+| `label` | `string` | 触发器显示文本（不传则显示 value） |
+
+**使用示例**
+
+```tsx
+const [value, setValue] = useState('页面设计')
+<SelectBox
+  options={['组件库', '页面设计', '图标资产', '插画素材']}
+  value={value}
+  onChange={setValue}
+/>
+```
 
 <!-- DS_SPEC_END -->

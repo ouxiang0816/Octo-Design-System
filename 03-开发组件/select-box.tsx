@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChevronDown } from 'lucide-react'
+import { Check, ChevronDown } from 'lucide-react'
 import { cx } from './utils'
 
 export function SelectBox({
@@ -40,9 +40,10 @@ export function SelectBox({
                 onChange?.(item)
                 setOpen(false)
               }}
-              className={cx('flex h-[30px] w-full items-center px-3 text-left text-[14px] text-[#191919] hover:bg-[#F3F4F6]', item === value && 'bg-[#EFF6FF]')}
+              className={cx('flex h-[30px] w-full items-center justify-between px-3 text-left text-[14px] text-[#191919] hover:bg-[#F3F4F6]', item === value && 'bg-[#EFF6FF]')}
             >
               {item}
+              {item === value ? <Check size={14} className="text-[#0067D1]" /> : null}
             </button>
           ))}
         </div>

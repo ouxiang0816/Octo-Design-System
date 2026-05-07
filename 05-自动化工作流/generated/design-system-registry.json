@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T04:05:16+00:00",
+  "generatedAt": "2026-05-07T08:59:33+00:00",
   "categories": [
     {
       "id": "foundation",
@@ -874,7 +874,7 @@
       "component": {
         "exportName": "Button",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "button",
@@ -913,7 +913,7 @@
           "02-markdown文档/components/component.button.md",
           "02-markdown文档/figma/component.button.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.button",
@@ -959,7 +959,7 @@
       "component": {
         "exportName": "IconButton",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "icon-button",
@@ -982,7 +982,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.icon-button.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.icon-button",
@@ -1029,7 +1029,7 @@
       "component": {
         "exportName": "TextLink",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "text-link",
@@ -1049,7 +1049,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.text-link.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.text-link",
@@ -1093,7 +1093,7 @@
       "component": {
         "exportName": "Input",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "input",
@@ -1116,7 +1116,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.input.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.input",
@@ -1203,7 +1203,7 @@
       "component": {
         "exportName": "SearchInput",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "search",
@@ -1241,7 +1241,7 @@
           "02-markdown文档/components/component.search.md",
           "02-markdown文档/figma/component.search.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.search",
@@ -1328,7 +1328,7 @@
       "component": {
         "exportName": "SelectBox",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "select",
@@ -1364,7 +1364,7 @@
           "02-markdown文档/components/component.select.md",
           "02-markdown文档/figma/component.select.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.select",
@@ -1408,7 +1408,7 @@
       "component": {
         "exportName": "Checkbox",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "checkbox",
@@ -1447,7 +1447,7 @@
           "02-markdown文档/components/component.checkbox.md",
           "02-markdown文档/figma/component.checkbox.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.checkbox",
@@ -1493,7 +1493,7 @@
       "component": {
         "exportName": "Radio",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "radio",
@@ -1531,7 +1531,7 @@
           "02-markdown文档/components/component.radio.md",
           "02-markdown文档/figma/component.radio.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.radio",
@@ -1576,7 +1576,7 @@
       "component": {
         "exportName": "Switch",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "switch",
@@ -1614,7 +1614,7 @@
           "02-markdown文档/components/component.switch.md",
           "02-markdown文档/figma/component.switch.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.switch",
@@ -1782,7 +1782,7 @@
       "component": {
         "exportName": "Tag",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "tag-chip",
@@ -1822,7 +1822,7 @@
           "02-markdown文档/components/component.tag-chip.md",
           "02-markdown文档/figma/component.tag-chip.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.tag-chip",
@@ -1870,7 +1870,7 @@
       "component": {
         "exportName": "Stepper",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "步进器",
@@ -1906,7 +1906,7 @@
           "02-markdown文档/components/component.步进器.md",
           "02-markdown文档/figma/component.步进器.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.步进器",
@@ -1949,7 +1949,7 @@
       "component": {
         "exportName": "FileUpload",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "file-upload",
@@ -1985,7 +1985,7 @@
           "02-markdown文档/components/component.file-upload.md",
           "02-markdown文档/figma/component.file-upload.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.file-upload",
@@ -2069,7 +2069,7 @@
       "component": {
         "exportName": "FileCard",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "file-card",
@@ -2105,7 +2105,7 @@
           "02-markdown文档/components/component.file-card.md",
           "02-markdown文档/figma/component.file-card.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.file-card",
@@ -2229,7 +2229,7 @@
       "component": {
         "exportName": "DrawerPreview",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "drawer-sheet",
@@ -2249,7 +2249,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.drawer-sheet.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.drawer-sheet",
@@ -2453,7 +2453,7 @@
       "component": {
         "exportName": "TopNavigation",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "top-navigation",
@@ -2473,7 +2473,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.top-navigation.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.top-navigation",
@@ -2517,7 +2517,7 @@
       "component": {
         "exportName": "SideNavigation",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "side-navigation",
@@ -2553,7 +2553,7 @@
           "02-markdown文档/components/component.side-navigation.md",
           "02-markdown文档/figma/component.side-navigation.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.side-navigation",
@@ -2597,7 +2597,7 @@
       "component": {
         "exportName": "Breadcrumb",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "breadcrumb",
@@ -2633,7 +2633,7 @@
           "02-markdown文档/components/component.breadcrumb.md",
           "02-markdown文档/figma/component.breadcrumb.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.breadcrumb",
@@ -2676,7 +2676,7 @@
       "component": {
         "exportName": "Tabs",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "tabs",
@@ -2713,7 +2713,7 @@
           "02-markdown文档/components/component.tabs.md",
           "02-markdown文档/figma/component.tabs.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.tabs",
@@ -2837,7 +2837,7 @@
       "component": {
         "exportName": "Steps",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "steps",
@@ -2876,7 +2876,7 @@
           "02-markdown文档/components/component.steps.md",
           "02-markdown文档/figma/component.steps.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.steps",
@@ -3282,7 +3282,7 @@
       "component": {
         "exportName": "Avatar",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "avatar",
@@ -3302,7 +3302,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.avatar.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.avatar",
@@ -3345,7 +3345,7 @@
       "component": {
         "exportName": "Badge",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "badge",
@@ -3365,7 +3365,7 @@
           "02-markdown文档/BASE.md",
           "02-markdown文档/components/component.badge.md",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.badge",
@@ -3688,7 +3688,7 @@
       "component": {
         "exportName": "Toast",
         "path": "03-开发组件/components.tsx",
-        "examplePath": "03-开发组件/interactiveDemos.tsx"
+        "examplePath": "04-预览网站/src/interactiveDemos.tsx"
       },
       "preview": {
         "anchor": "toast-message",
@@ -3724,7 +3724,7 @@
           "02-markdown文档/components/component.toast-message.md",
           "02-markdown文档/figma/component.toast-message.context.json",
           "03-开发组件/components.tsx",
-          "03-开发组件/interactiveDemos.tsx"
+          "04-预览网站/src/interactiveDemos.tsx"
         ],
         "keywords": [
           "component.toast-message",

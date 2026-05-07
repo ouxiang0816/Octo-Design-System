@@ -3,12 +3,12 @@
 > 与 BASE.md 配合使用。本文件为自动聚合总表；AI 与团队成员应优先通过 `05-自动化工作流/generated/design-system-registry.json` 定位后，再按需读取 `02-markdown文档/components/component.*.md`。
 > 本文件参数以 Figma 实测为准（文件：Octo-Designer，UuRaxW6YNJVqnaxq0ihi6S）。
 
-## 本文件职责
+### 本文件职责
 
 - 作为组件规范总表，汇总各组件主规范文档和同步索引。
 - 便于整体浏览、校对和对外分享，不再作为组件规范唯一主源。
 
-## 本文件不负责
+### 本文件不负责
 
 - 不作为 AI 的默认首读入口；常规检索优先走 `registry.json + BASE.md + component.*.md`。
 - 不承担团队协作流程说明；流程和命令统一写在 `HOWTO.md`。
@@ -159,9 +159,29 @@ placeholder 文字：12px `#777777`；帮助文字与错误提示共用位置（
 
 下拉面板：bg `#FFFFFF`，阴影 `0px 4px 4px rgba(0,0,0,0.16)`，圆角 4px；  
 下拉项：px-8 py-4，高约 30px，文字 14px `#191919`；  
-选中项背景 `#EFF6FF`。  
+选中项背景 `#EFF6FF`，右侧显示 `✓` 图标（`#0067D1`）。  
 变体：单选 / 多选（多选 Tag 在触发器内，bg `#DBEAFE`）；可搜索 / 不可搜索。  
 规则：下拉宽度 ≥ 触发器宽度；超出视口时向上展开。
+
+**Props（React 组件）**
+
+| Prop | 类型 | 说明 |
+|---|---|---|
+| `options` | `string[]` | 选项列表，必填 |
+| `value` | `string` | 当前选中值 |
+| `onChange` | `(value: string) => void` | 选中回调 |
+| `label` | `string` | 触发器显示文本（不传则显示 value） |
+
+**使用示例**
+
+```tsx
+const [value, setValue] = useState('页面设计')
+<SelectBox
+  options={['组件库', '页面设计', '图标资产', '插画素材']}
+  value={value}
+  onChange={setValue}
+/>
+```
 
 ---
 
@@ -548,6 +568,24 @@ placeholder 文字：12px `#777777`；帮助文字与错误提示共用位置（
 | 错误 | 红底 `#FF4D4F` + 白 ✕ | `#DFDFDF` |
 
 变体：水平 / 垂直；可点击 / 不可点击；仅用于流程进度，不用于内容切换。
+
+**Props（React 组件）**
+
+| Prop | 类型 | 说明 |
+|---|---|---|
+| `items` | `string[]` | 步骤标签数组，必填 |
+| `currentStep` | `number` | 当前步骤索引（0-based），不传时组件内部管理 |
+| `onStepChange` | `(step: number) => void` | 步骤切换回调 |
+
+**使用示例**
+
+```tsx
+// 受控用法（外部控制步骤）
+<Steps items={['选择文件', '填写信息', '确认上传']} currentStep={1} onStepChange={setStep} />
+
+// 非受控用法（组件内部管理状态）
+<Steps items={['选择文件', '填写信息', '确认上传']} />
+```
 
 ---
 
