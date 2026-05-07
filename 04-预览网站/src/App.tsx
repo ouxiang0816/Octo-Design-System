@@ -7,7 +7,7 @@ import {
   type DesignSystemEntry,
   type SyncStatus,
 } from './generated/design-system-registry'
-import { componentDemoMap, fallbackDemo } from '../../03-开发组件/interactiveDemos'
+import { componentDemoMap, fallbackDemo } from './interactiveDemos'
 import { Badge, Button, Tag } from '../../03-开发组件/components'
 
 function App() {

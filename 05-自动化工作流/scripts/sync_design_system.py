@@ -69,7 +69,7 @@ CATEGORY_LABELS = {
 }
 
 COMPONENTS_SOURCE = str((COMPONENTS_DIR / "components.tsx").relative_to(ROOT))
-DEMOS_SOURCE = str((COMPONENTS_DIR / "interactiveDemos.tsx").relative_to(ROOT))
+DEMOS_SOURCE = str((PREVIEW_DIR / "src" / "interactiveDemos.tsx").relative_to(ROOT))
 
 IMPLEMENTED_COMPONENTS = {
     "component.button": ("Button", COMPONENTS_SOURCE, DEMOS_SOURCE),
@@ -765,12 +765,12 @@ def write_components_aggregate(entries: list[Entry]) -> None:
         "> 与 BASE.md 配合使用。本文件为自动聚合总表；AI 与团队成员应优先通过 `05-自动化工作流/generated/design-system-registry.json` 定位后，再按需读取 `02-markdown文档/components/component.*.md`。",
         "> 本文件参数以 Figma 实测为准（文件：Octo-Designer，UuRaxW6YNJVqnaxq0ihi6S）。",
         "",
-        "## 本文件职责",
+        "### 本文件职责",
         "",
         "- 作为组件规范总表，汇总各组件主规范文档和同步索引。",
         "- 便于整体浏览、校对和对外分享，不再作为组件规范唯一主源。",
         "",
-        "## 本文件不负责",
+        "### 本文件不负责",
         "",
         "- 不作为 AI 的默认首读入口；常规检索优先走 `registry.json + BASE.md + component.*.md`。",
         "- 不承担团队协作流程说明；流程和命令统一写在 `HOWTO.md`。",
