@@ -1,0 +1,11 @@
+{
+  "name": "octo-design-system",
+  "displayName": "Octo Designer Design System",
+  "description": "Octo Designer 设计系统 — 提供符合规范的 UI 代码生成 skill，支持按设计 Token、组件规范和可用组件列表生成 React + Tailwind 代码。",
+  "author": {
+    "name": "ouxiang0816"
+  },
+  "repository": "https://github.com/ouxiang0816/Octo-Design-System",
+  "keywords": ["design-system", "ui", "react", "tailwind", "octo"],
+  "skills": "./skills/"
+}
