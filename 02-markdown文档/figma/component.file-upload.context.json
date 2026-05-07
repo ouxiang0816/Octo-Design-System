@@ -1,0 +1,11 @@
+{
+  "id": "component.file-upload",
+  "source": "figma-mcp:get_design_context",
+  "summary": "文件上传区为虚线边框拖拽区域，宽375px高200px，中央竖向排列上传图标、提示文字和格式说明。",
+  "extracted": {
+    "size": "width 375px; height 200px; radius 4px; plus-icon 20px",
+    "colors": "background rgba(25,25,25,0.05); border dashed #DFDFDF; text #191919; link-text #0067D1; helper #777777",
+    "layout": "flex col; center; gap 8px; [plus-icon] above [text+link] above [helper-text]",
+    "variants": "默认上传区"
+  }
+}

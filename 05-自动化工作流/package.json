@@ -1,0 +1,15 @@
+{
+  "name": "octo-designer-design-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "ds:sheet": "python3 scripts/sync_design_system.py --sheet",
+    "ds:figma": "python3 scripts/sync_design_system.py --figma-status",
+    "ds:figma-needed": "python3 scripts/sync_design_system.py --figma-needed",
+    "ds:check": "python3 scripts/sync_design_system.py --check",
+    "ds:sync": "python3 scripts/sync_design_system.py --sync",
+    "ds:build": "npm run ds:sync && npm --prefix ../04-预览网站 run build && node scripts/inline-visual-guide.mjs",
+    "ds:dev": "python3 scripts/sync_design_system.py --sync --skip-html && npm --prefix ../04-预览网站 run dev"
+  }
+}

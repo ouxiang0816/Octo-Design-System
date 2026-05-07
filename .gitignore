@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+04-预览网站/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# npm pack output
+*.tgz
+
+# Editor
+.vscode/
+.idea/

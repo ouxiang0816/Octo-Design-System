@@ -1,0 +1,11 @@
+{
+  "id": "component.button",
+  "source": "figma-mcp:get_design_context",
+  "summary": "Figma 节点包含主要按钮、次要按钮、下拉按钮、文本按钮，并覆盖默认、悬停、点击状态。按钮基准高度约 30-32px，圆角 4px，字号 14px/22px。",
+  "extracted": {
+    "size": "height 30-32px; padding 4px 16px; radius 4px",
+    "colors": "primary #0067D1; hover #2E86DE; active #004EA8; text #FFFFFF/#191919; border #C9C9C9",
+    "layout": "inline-flex; center aligned; icon + text gap 4-8px depending variant",
+    "variants": "主要按钮 / 次要按钮 / 下拉按钮 / 文本按钮; 默认 / 悬停 / 点击"
+  }
+}

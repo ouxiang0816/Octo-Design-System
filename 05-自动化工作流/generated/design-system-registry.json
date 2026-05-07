@@ -1,0 +1,3865 @@
+{
+  "generatedAt": "2026-05-07T04:05:16+00:00",
+  "categories": [
+    {
+      "id": "foundation",
+      "label": "Foundation"
+    },
+    {
+      "id": "basic",
+      "label": "基础类"
+    },
+    {
+      "id": "container",
+      "label": "容器类"
+    },
+    {
+      "id": "navigation",
+      "label": "导航类"
+    },
+    {
+      "id": "form",
+      "label": "表单类"
+    },
+    {
+      "id": "data-display",
+      "label": "数据展示类"
+    },
+    {
+      "id": "feedback",
+      "label": "反馈类"
+    }
+  ],
+  "entries": [
+    {
+      "id": "foundation.本文件职责",
+      "category": "foundation",
+      "name": "本文件职责",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "本文件职责",
+        "anchor": "本文件职责",
+        "line": 6,
+        "summary": "- 定义全局 token、尺寸基线、交互状态规则和通用组件映射。 - 作为所有页面、组件和 AI 生成任务的基础约束。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "本文件职责",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.本文件职责",
+          "本文件职责",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.本文件不负责",
+      "category": "foundation",
+      "name": "本文件不负责",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "本文件不负责",
+        "anchor": "本文件不负责",
+        "line": 11,
+        "summary": "- 不定义单个组件的完整变体、状态和业务语义。 - 不描述同步流程、命令和维护步骤。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "本文件不负责",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.本文件不负责",
+          "本文件不负责",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.设计原则",
+      "category": "foundation",
+      "name": "设计原则",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "设计原则",
+        "anchor": "设计原则",
+        "line": 16,
+        "summary": "- 工具优先：支持高频操作、扫描、筛选、管理，不做营销展示。 - 低干扰：白/浅灰背景为主，品牌蓝只用于主操作和当前状态。 - 紧凑清晰：控件高度固定，布局不随内容变化跳动。 - 组件化：优先组合已有组件，不为单页创造新样式。 - 状态完整：每个可交互组件至少覆盖默认、hover、选中、禁用四态。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "设计原则",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.设计原则",
+          "设计原则",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.颜色-token",
+      "category": "foundation",
+      "name": "颜色 Token",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "颜色 Token",
+        "anchor": "颜色-token",
+        "line": 24,
+        "summary": "颜色规则：品牌蓝禁止大面积铺背景；普通文本禁止使用蓝色；同一页面不得出现多套高饱和颜色。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "颜色-token",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.颜色-token",
+          "颜色 Token",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.状态色-语义色",
+      "category": "foundation",
+      "name": "状态色（语义色）",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "状态色（语义色）",
+        "anchor": "状态色-语义色",
+        "line": 42,
+        "summary": "规则：语义色只用于状态标识（Badge、Alert 色条、状态点），不铺大面积背景。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "状态色-语义色",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.状态色-语义色",
+          "状态色（语义色）",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.字体",
+      "category": "foundation",
+      "name": "字体",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "字体",
+        "anchor": "字体",
+        "line": 55,
+        "summary": "```css font-family: \"HarmonyOS Sans\", Inter, \"Noto Sans JP\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; ```"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "字体",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.字体",
+          "字体",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.字号规格",
+      "category": "foundation",
+      "name": "字号规格",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "字号规格",
+        "anchor": "字号规格",
+        "line": 61,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "字号规格",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.字号规格",
+          "字号规格",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.间距-token",
+      "category": "foundation",
+      "name": "间距 Token",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "间距 Token",
+        "anchor": "间距-token",
+        "line": 85,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "间距-token",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.间距-token",
+          "间距 Token",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.圆角-token",
+      "category": "foundation",
+      "name": "圆角 Token",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "圆角 Token",
+        "anchor": "圆角-token",
+        "line": 96,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "圆角-token",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.圆角-token",
+          "圆角 Token",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.阴影层级",
+      "category": "foundation",
+      "name": "阴影层级",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "阴影层级",
+        "anchor": "阴影层级",
+        "line": 105,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "阴影层级",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.阴影层级",
+          "阴影层级",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.图标尺寸",
+      "category": "foundation",
+      "name": "图标尺寸",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "图标尺寸",
+        "anchor": "图标尺寸",
+        "line": 113,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "图标尺寸",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.图标尺寸",
+          "图标尺寸",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.动效-token",
+      "category": "foundation",
+      "name": "动效 Token",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "动效 Token",
+        "anchor": "动效-token",
+        "line": 124,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "动效-token",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.动效-token",
+          "动效 Token",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.交互状态规则",
+      "category": "foundation",
+      "name": "交互状态规则",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "交互状态规则",
+        "anchor": "交互状态规则",
+        "line": 133,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "交互状态规则",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.交互状态规则",
+          "交互状态规则",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.关键组件尺寸",
+      "category": "foundation",
+      "name": "关键组件尺寸",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "关键组件尺寸",
+        "anchor": "关键组件尺寸",
+        "line": 142,
+        "summary": ""
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "关键组件尺寸",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.关键组件尺寸",
+          "关键组件尺寸",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.shadcn-ui-组件映射",
+      "category": "foundation",
+      "name": "Shadcn/ui 组件映射",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "Shadcn/ui 组件映射",
+        "anchor": "shadcn-ui",
+        "line": 160,
+        "summary": "实现规则：不直接修改 Shadcn/ui 源组件；所有颜色落到 CSS variables 或 Tailwind theme；图标库统一用 lucide-react。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "shadcn-ui",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.shadcn-ui-组件映射",
+          "Shadcn/ui 组件映射",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.ai-生成规则",
+      "category": "foundation",
+      "name": "AI 生成规则",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "AI 生成规则",
+        "anchor": "ai",
+        "line": 188,
+        "summary": "**必须：** - 使用上方 token、组件和尺寸约束 - 生成真实可操作的工具界面，不生成展示型落地页 - 包含必要状态（空态、加载态、选中态、hover 态） - 文案使用工具型命令式：「导出」「新建」「保存」「取消」 - 使用图标表达常见动作：搜索、更多、关闭、展开、导入、导出 **禁止：** - 大面积紫蓝渐变、玻璃拟态、装饰光斑"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "ai",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.ai-生成规则",
+          "AI 生成规则",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "foundation.验收清单",
+      "category": "foundation",
+      "name": "验收清单",
+      "cnName": "",
+      "status": "md",
+      "figmaUrl": null,
+      "sheetName": null,
+      "sheetRow": null,
+      "md": {
+        "file": "BASE.md",
+        "path": "02-markdown文档/BASE.md",
+        "title": "验收清单",
+        "anchor": "验收清单",
+        "line": 204,
+        "summary": "- [ ] 主色使用 `#0067D1`，未滥用于背景或普通文本 - [ ] 按钮 30px、输入框 32px、菜单项 36px、顶部导航 56px - [ ] 圆角统一（按钮/输入框 4px，卡片 ≤ 8px） - [ ] 无营销型 Hero 和装饰大卡片 - [ ] 当前状态、选中态、hover 有明确视觉反馈 - [ ] 常见桌面宽度下正常显示"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": null,
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": {
+        "anchor": "验收清单",
+        "group": "Foundation",
+        "states": []
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {},
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md"
+        ],
+        "keywords": [
+          "foundation.验收清单",
+          "验收清单",
+          "md",
+          "Foundation"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.button",
+      "category": "basic",
+      "name": "Button",
+      "cnName": "按钮",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=17-1112&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 3,
+      "md": {
+        "file": "02-markdown文档/components/component.button.md",
+        "path": "02-markdown文档/components/component.button.md",
+        "title": "Button 按钮",
+        "anchor": "button",
+        "line": 6,
+        "summary": "> Figma 节点包含主要按钮、次要按钮、下拉按钮、文本按钮，并覆盖默认、悬停、点击状态。按钮基准高度约 30-32px，圆角 4px，字号 14px/22px。 基于 Shadcn/ui `Button` 扩展。圆角 4px，字号 14px / 行高 22px，水平内边距 16px，垂直内边距 4px。 规则：同一区域最多一个 `primary`；文案用命令式（「导出」「新建」「保存」「取消」）；图标在文字左侧，间距 8px。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.button.md",
+        "figmaContextPath": "02-markdown文档/figma/component.button.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.button.screenshot.png"
+      },
+      "component": {
+        "exportName": "Button",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "button",
+        "group": "基础类",
+        "states": [
+          "default",
+          "hover",
+          "active",
+          "disabled"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "17:1112",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=17-1112&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.button.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.button.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 节点包含主要按钮、次要按钮、下拉按钮、文本按钮，并覆盖默认、悬停、点击状态。按钮基准高度约 30-32px，圆角 4px，字号 14px/22px。",
+        "extracted": {
+          "size": "height 30-32px; padding 4px 16px; radius 4px",
+          "colors": "primary #0067D1; hover #2E86DE; active #004EA8; text #FFFFFF/#191919; border #C9C9C9",
+          "layout": "inline-flex; center aligned; icon + text gap 4-8px depending variant",
+          "variants": "主要按钮 / 次要按钮 / 下拉按钮 / 文本按钮; 默认 / 悬停 / 点击"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.button.md",
+          "02-markdown文档/figma/component.button.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.button",
+          "Button",
+          "按钮",
+          "需要",
+          "基础类",
+          "Button 按钮"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "active",
+          "disabled"
+        ],
+        "variantSummary": "主要按钮 / 次要按钮 / 下拉按钮 / 文本按钮; 默认 / 悬停 / 点击"
+      }
+    },
+    {
+      "id": "component.icon-button",
+      "category": "basic",
+      "name": "Icon Button",
+      "cnName": "图标按钮",
+      "status": "需要",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 4,
+      "md": {
+        "file": "02-markdown文档/components/component.icon-button.md",
+        "path": "02-markdown文档/components/component.icon-button.md",
+        "title": "Icon Button 图标按钮",
+        "anchor": "icon-button",
+        "line": 6,
+        "summary": "基于 Shadcn/ui `Button` variant=\"icon\"。尺寸 30×30px，圆角 6px，图标 14px。 规则：纯图标无文字；用于工具栏、关闭、更多等；必须叠加 Tooltip 说明用途。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.icon-button.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "IconButton",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "icon-button",
+        "group": "基础类",
+        "states": [
+          "default",
+          "hover",
+          "active",
+          "disabled"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.icon-button.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.icon-button",
+          "Icon Button",
+          "图标按钮",
+          "需要",
+          "基础类",
+          "Icon Button 图标按钮",
+          "IconButton"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "active",
+          "disabled"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.text-link",
+      "category": "basic",
+      "name": "Text Link",
+      "cnName": "文字链接",
+      "status": "需要",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 5,
+      "md": {
+        "file": "02-markdown文档/components/component.text-link.md",
+        "path": "02-markdown文档/components/component.text-link.md",
+        "title": "Text Link 文字链接",
+        "anchor": "text-link",
+        "line": 6,
+        "summary": "内联使用，无边框无背景。字号 12–14px。 规则：用于文档跳转、帮助入口；不用于主操作按钮。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.text-link.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "TextLink",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "text-link",
+        "group": "基础类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.text-link.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.text-link",
+          "Text Link",
+          "文字链接",
+          "需要",
+          "基础类",
+          "Text Link 文字链接",
+          "TextLink"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.input",
+      "category": "basic",
+      "name": "Input",
+      "cnName": "输入框",
+      "status": "已有",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 6,
+      "md": {
+        "file": "02-markdown文档/components/component.input.md",
+        "path": "02-markdown文档/components/component.input.md",
+        "title": "Input 输入框",
+        "anchor": "input",
+        "line": 6,
+        "summary": "基于 Shadcn/ui `Input`。高度 32px，圆角 4px，水平内边距 12px，字号 12px。 placeholder 文字：12px `#777777`；帮助文字与错误提示共用位置（错误时替换）。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.input.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "Input",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "input",
+        "group": "基础类",
+        "states": [
+          "default",
+          "focus",
+          "error",
+          "disabled"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.input.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.input",
+          "Input",
+          "输入框",
+          "已有",
+          "基础类",
+          "Input 输入框"
+        ],
+        "states": [
+          "default",
+          "focus",
+          "error",
+          "disabled"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.textarea",
+      "category": "basic",
+      "name": "Textarea",
+      "cnName": "多行输入",
+      "status": "暂定",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 7,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.textarea",
+          "Textarea",
+          "多行输入",
+          "暂定",
+          "基础类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.search",
+      "category": "basic",
+      "name": "Search",
+      "cnName": "搜索框",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-1256&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 8,
+      "md": {
+        "file": "02-markdown文档/components/component.search.md",
+        "path": "02-markdown文档/components/component.search.md",
+        "title": "Search 搜索框",
+        "anchor": "search",
+        "line": 6,
+        "summary": "> Figma 搜索框为 280px 宽、32px 高，圆角 4px，右侧 14px 搜索图标，覆盖默认、悬浮、聚焦状态。 基于 Shadcn/ui `Input` + lucide `Search`。高度 32px，默认宽 280px，圆角 4px，内边距 12px。 搜索图标 14px 右侧对齐，颜色 `#777777`；可选清除 × 图标。placeholder 描述搜索对象（「搜索需求」）；不占满整屏（除非搜索是页面主任务）。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.search.md",
+        "figmaContextPath": "02-markdown文档/figma/component.search.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.search.screenshot.png"
+      },
+      "component": {
+        "exportName": "SearchInput",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "search",
+        "group": "基础类",
+        "states": [
+          "default",
+          "focus",
+          "with-clear"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "278:1256",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-1256&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.search.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.search.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 搜索框为 280px 宽、32px 高，圆角 4px，右侧 14px 搜索图标，覆盖默认、悬浮、聚焦状态。",
+        "extracted": {
+          "size": "width 280px; height 32px; padding 8px 12px; icon 14px; radius 4px",
+          "colors": "border default #C9C9C9; hover #191919; focus #0067D1; placeholder #777777; background #FFFFFF",
+          "layout": "flex row; align center; justify between; text left and search icon right",
+          "variants": "Default / 悬浮 / 聚焦"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.search.md",
+          "02-markdown文档/figma/component.search.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.search",
+          "Search",
+          "搜索框",
+          "需要",
+          "基础类",
+          "Search 搜索框",
+          "SearchInput"
+        ],
+        "states": [
+          "default",
+          "focus",
+          "with-clear"
+        ],
+        "variantSummary": "Default / 悬浮 / 聚焦"
+      }
+    },
+    {
+      "id": "component.inputnumber",
+      "category": "basic",
+      "name": "InputNumber",
+      "cnName": "数字输入",
+      "status": "不要",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 9,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.inputnumber",
+          "InputNumber",
+          "数字输入",
+          "不要",
+          "基础类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.select",
+      "category": "basic",
+      "name": "Select",
+      "cnName": "下拉选择",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-884&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 10,
+      "md": {
+        "file": "02-markdown文档/components/component.select.md",
+        "path": "02-markdown文档/components/component.select.md",
+        "title": "Select 下拉选择",
+        "anchor": "select",
+        "line": 6,
+        "summary": "> Figma 下拉选择包含默认与选中/展开状态。触发器圆角 4px，边框默认 #C9C9C9，展开时边框 #0067D1，下拉面板白底并使用 0 4px 4px rgba(0,0,0,0.16) 阴影。 基于 Shadcn/ui `Select`。触发器高度 32px（内边距 12px / 4px），圆角 4px，字号 14px。 下拉面板：bg `#FFFFFF`，阴影 `0px 4px 4px rgba(0,0,0,0.16)`，"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.select.md",
+        "figmaContextPath": "02-markdown文档/figma/component.select.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.select.screenshot.png"
+      },
+      "component": {
+        "exportName": "SelectBox",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "select",
+        "group": "基础类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "278:884",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-884&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.select.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.select.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 下拉选择包含默认与选中/展开状态。触发器圆角 4px，边框默认 #C9C9C9，展开时边框 #0067D1，下拉面板白底并使用 0 4px 4px rgba(0,0,0,0.16) 阴影。",
+        "extracted": {
+          "size": "trigger height about 32px; padding 4px 12px; menu item padding 4px 8px; radius 4px",
+          "colors": "border default #C9C9C9; open #0067D1; text #191919; background #FFFFFF",
+          "layout": "trigger inline-flex gap 8px; expanded menu vertical list width 96px",
+          "variants": "默认 / 选中（展开）"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.select.md",
+          "02-markdown文档/figma/component.select.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.select",
+          "Select",
+          "下拉选择",
+          "需要",
+          "基础类",
+          "Select 下拉选择",
+          "SelectBox"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "默认 / 选中（展开）"
+      }
+    },
+    {
+      "id": "component.checkbox",
+      "category": "basic",
+      "name": "Checkbox",
+      "cnName": "复选框",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=300-307&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 11,
+      "md": {
+        "file": "02-markdown文档/components/component.checkbox.md",
+        "path": "02-markdown文档/components/component.checkbox.md",
+        "title": "Checkbox 复选框",
+        "anchor": "checkbox",
+        "line": 6,
+        "summary": "> Figma 复选框包含未选与选中状态，控件尺寸 16x16px，圆角 4px，标签文字 12px，控件与标签间距 8px。 基于 Shadcn/ui `Checkbox`。尺寸 16×16px，圆角 4px，标签文字 12px `#191919`，间距 8px。 标签在右侧；纵向排列间距 8px；支持单独 / 组 / 全选（含半选）。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.checkbox.md",
+        "figmaContextPath": "02-markdown文档/figma/component.checkbox.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.checkbox.screenshot.png"
+      },
+      "component": {
+        "exportName": "Checkbox",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "checkbox",
+        "group": "基础类",
+        "states": [
+          "unchecked",
+          "checked",
+          "indeterminate",
+          "disabled"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "300:307",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=300-307&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.checkbox.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.checkbox.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 复选框包含未选与选中状态，控件尺寸 16x16px，圆角 4px，标签文字 12px，控件与标签间距 8px。",
+        "extracted": {
+          "size": "box 16x16px; check icon 10px; gap 8px; radius 4px",
+          "colors": "unchecked border #C9C9C9; checked background #0067D1; text #191919; check #FFFFFF",
+          "layout": "inline-flex; align start; checkbox left and label right",
+          "variants": "未选 / 选中"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.checkbox.md",
+          "02-markdown文档/figma/component.checkbox.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.checkbox",
+          "Checkbox",
+          "复选框",
+          "需要",
+          "基础类",
+          "Checkbox 复选框"
+        ],
+        "states": [
+          "unchecked",
+          "checked",
+          "indeterminate",
+          "disabled"
+        ],
+        "variantSummary": "未选 / 选中"
+      }
+    },
+    {
+      "id": "component.radio",
+      "category": "basic",
+      "name": "Radio",
+      "cnName": "单选框",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=300-338&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 12,
+      "md": {
+        "file": "02-markdown文档/components/component.radio.md",
+        "path": "02-markdown文档/components/component.radio.md",
+        "title": "Radio 单选框",
+        "anchor": "radio",
+        "line": 6,
+        "summary": "> Figma 单选框包含未选与选中状态，控件尺寸 16x16px，全圆，标签文字 12px，间距 8px。 基于 Shadcn/ui `RadioGroup`。尺寸 16×16px，圆角 9999px，标签文字 12px `#191919`，间距 8px。 标签在右侧；纵向排列间距 8px；支持单独 / Radio Group。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.radio.md",
+        "figmaContextPath": "02-markdown文档/figma/component.radio.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.radio.screenshot.png"
+      },
+      "component": {
+        "exportName": "Radio",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "radio",
+        "group": "基础类",
+        "states": [
+          "unchecked",
+          "checked",
+          "disabled"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "300:338",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=300-338&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.radio.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.radio.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 单选框包含未选与选中状态，控件尺寸 16x16px，全圆，标签文字 12px，间距 8px。",
+        "extracted": {
+          "size": "radio 16x16px; gap 8px; radius full",
+          "colors": "unchecked border #C9C9C9; checked brand #0067D1; text #191919",
+          "layout": "inline-flex; radio left and label right",
+          "variants": "未选 / 选中"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.radio.md",
+          "02-markdown文档/figma/component.radio.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.radio",
+          "Radio",
+          "单选框",
+          "需要",
+          "基础类",
+          "Radio 单选框"
+        ],
+        "states": [
+          "unchecked",
+          "checked",
+          "disabled"
+        ],
+        "variantSummary": "未选 / 选中"
+      }
+    },
+    {
+      "id": "component.switch",
+      "category": "basic",
+      "name": "Switch",
+      "cnName": "开关",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-820&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 13,
+      "md": {
+        "file": "02-markdown文档/components/component.switch.md",
+        "path": "02-markdown文档/components/component.switch.md",
+        "title": "Switch 开关",
+        "anchor": "switch",
+        "line": 6,
+        "summary": "> Figma 开关尺寸 38x20px，包含开/关状态，滑块 16px，胶囊轨道。 基于 Shadcn/ui `Switch`。尺寸 38×20px（胶囊形，圆角 999px），滑块 16px 圆形。 点击整个开关区域触发；过渡动画 200ms ease。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.switch.md",
+        "figmaContextPath": "02-markdown文档/figma/component.switch.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.switch.screenshot.png"
+      },
+      "component": {
+        "exportName": "Switch",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "switch",
+        "group": "基础类",
+        "states": [
+          "off",
+          "on",
+          "disabled"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "278:820",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-820&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.switch.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.switch.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 开关尺寸 38x20px，包含开/关状态，滑块 16px，胶囊轨道。",
+        "extracted": {
+          "size": "track 38x20px; thumb 16px; radius full",
+          "colors": "on track #0067D1; off track gray; thumb #FFFFFF",
+          "layout": "single switch control; thumb translates horizontally between off/on",
+          "variants": "开 / 关"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.switch.md",
+          "02-markdown文档/figma/component.switch.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.switch",
+          "Switch",
+          "开关",
+          "需要",
+          "基础类",
+          "Switch 开关"
+        ],
+        "states": [
+          "off",
+          "on",
+          "disabled"
+        ],
+        "variantSummary": "开 / 关"
+      }
+    },
+    {
+      "id": "component.slider",
+      "category": "basic",
+      "name": "Slider",
+      "cnName": "滑块",
+      "status": "暂定",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 14,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.slider",
+          "Slider",
+          "滑块",
+          "暂定",
+          "基础类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.upload",
+      "category": "basic",
+      "name": "Upload",
+      "cnName": "上传",
+      "status": "需要",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 15,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.upload",
+          "Upload",
+          "上传",
+          "需要",
+          "基础类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.scrollbar",
+      "category": "basic",
+      "name": "Scrollbar",
+      "cnName": "滚动条",
+      "status": "暂定",
+      "figmaUrl": null,
+      "sheetName": "🔵 基础类",
+      "sheetRow": 16,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.scrollbar",
+          "Scrollbar",
+          "滚动条",
+          "暂定",
+          "基础类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.tag-chip",
+      "category": "basic",
+      "name": "Tag / Chip",
+      "cnName": "标签",
+      "status": "需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=300-494&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 17,
+      "md": {
+        "file": "02-markdown文档/components/component.tag-chip.md",
+        "path": "02-markdown文档/components/component.tag-chip.md",
+        "title": "Tag / Chip 标签",
+        "anchor": "tag-chip",
+        "line": 6,
+        "summary": "> Figma Tag/Chip 为 22px 高、4px 圆角，使用 10px/16px 文本，包含蓝、橙、红、绿四种语义色。 高度 22px（py-2px），水平内边距 8px，圆角 4px，**字号 10px**，行高 16px。 变体：只读 / 可关闭 / 可点击；超出截断 + 省略号。仅用于状态标识，不用于装饰。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.tag-chip.md",
+        "figmaContextPath": "02-markdown文档/figma/component.tag-chip.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.tag-chip.screenshot.png"
+      },
+      "component": {
+        "exportName": "Tag",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "tag-chip",
+        "group": "基础类",
+        "states": [
+          "blue",
+          "orange",
+          "red",
+          "green",
+          "closable"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "300:494",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=300-494&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.tag-chip.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.tag-chip.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma Tag/Chip 为 22px 高、4px 圆角，使用 10px/16px 文本，包含蓝、橙、红、绿四种语义色。",
+        "extracted": {
+          "size": "height 22px; padding 2px 8px; radius 4px; text 10px/16px",
+          "colors": "blue rgba(0,103,209,0.2)/#0067D1; orange rgba(250,140,22,0.2)/#FA8C16; red rgba(255,77,79,0.2)/#FF4D4F; green rgba(115,209,61,0.2)/#73D13D",
+          "layout": "inline-flex center; compact status label",
+          "variants": "蓝 / 橙 / 红 / 绿"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.tag-chip.md",
+          "02-markdown文档/figma/component.tag-chip.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.tag-chip",
+          "Tag / Chip",
+          "标签",
+          "需要",
+          "基础类",
+          "Tag / Chip 标签",
+          "Tag"
+        ],
+        "states": [
+          "blue",
+          "orange",
+          "red",
+          "green",
+          "closable"
+        ],
+        "variantSummary": "蓝 / 橙 / 红 / 绿"
+      }
+    },
+    {
+      "id": "component.步进器",
+      "category": "basic",
+      "name": "步进器",
+      "cnName": "步进器",
+      "status": "新增",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-403&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 18,
+      "md": {
+        "file": "02-markdown文档/components/component.步进器.md",
+        "path": "02-markdown文档/components/component.步进器.md",
+        "title": "步进器 步进器",
+        "anchor": "步进器",
+        "line": 6,
+        "summary": "> 步进器由减号图标、竖线分隔符、数值、竖线分隔符、加号图标横向排列，边框圆角4px。 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.步进器.md",
+        "figmaContextPath": "02-markdown文档/figma/component.步进器.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.步进器.screenshot.png"
+      },
+      "component": {
+        "exportName": "Stepper",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "步进器",
+        "group": "基础类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "493:403",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-403&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.步进器.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.步进器.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "步进器由减号图标、竖线分隔符、数值、竖线分隔符、加号图标横向排列，边框圆角4px。",
+        "extracted": {
+          "size": "height ~30px; padding 8px 12px; radius 4px; icon 14px; separator 1px vertical line",
+          "colors": "border #DFDFDF; text #191919; background #FFFFFF",
+          "layout": "flex row; align center; gap 14px; [minus-icon] | [number] | [plus-icon]",
+          "variants": "默认（展示数值）"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.步进器.md",
+          "02-markdown文档/figma/component.步进器.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.步进器",
+          "步进器",
+          "新增",
+          "基础类",
+          "步进器 步进器",
+          "Stepper"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "默认（展示数值）"
+      }
+    },
+    {
+      "id": "component.file-upload",
+      "category": "basic",
+      "name": "File Upload",
+      "cnName": "文件上传",
+      "status": "新增",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=716-272&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔵 基础类",
+      "sheetRow": 19,
+      "md": {
+        "file": "02-markdown文档/components/component.file-upload.md",
+        "path": "02-markdown文档/components/component.file-upload.md",
+        "title": "File Upload 文件上传",
+        "anchor": "file-upload",
+        "line": 6,
+        "summary": "> 文件上传区为虚线边框拖拽区域，宽375px高200px，中央竖向排列上传图标、提示文字和格式说明。 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.file-upload.md",
+        "figmaContextPath": "02-markdown文档/figma/component.file-upload.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.file-upload.screenshot.png"
+      },
+      "component": {
+        "exportName": "FileUpload",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "file-upload",
+        "group": "基础类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "716:272",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=716-272&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.file-upload.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.file-upload.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "文件上传区为虚线边框拖拽区域，宽375px高200px，中央竖向排列上传图标、提示文字和格式说明。",
+        "extracted": {
+          "size": "width 375px; height 200px; radius 4px; plus-icon 20px",
+          "colors": "background rgba(25,25,25,0.05); border dashed #DFDFDF; text #191919; link-text #0067D1; helper #777777",
+          "layout": "flex col; center; gap 8px; [plus-icon] above [text+link] above [helper-text]",
+          "variants": "默认上传区"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.file-upload.md",
+          "02-markdown文档/figma/component.file-upload.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.file-upload",
+          "File Upload",
+          "文件上传",
+          "新增",
+          "基础类",
+          "File Upload 文件上传",
+          "FileUpload"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "默认上传区"
+      }
+    },
+    {
+      "id": "component.card",
+      "category": "container",
+      "name": "Card",
+      "cnName": "卡片",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 3,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.card",
+          "Card",
+          "卡片",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.file-card",
+      "category": "container",
+      "name": "File Card",
+      "cnName": "文件卡片",
+      "status": "新增",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-295&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "📦 容器类",
+      "sheetRow": 4,
+      "md": {
+        "file": "02-markdown文档/components/component.file-card.md",
+        "path": "02-markdown文档/components/component.file-card.md",
+        "title": "File Card 文件卡片",
+        "anchor": "file-card",
+        "line": 6,
+        "summary": "> 文件卡片展示文件名、大小、上传者和日期，左侧带32px文档图标，圆角8px边框卡片。 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.file-card.md",
+        "figmaContextPath": "02-markdown文档/figma/component.file-card.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.file-card.screenshot.png"
+      },
+      "component": {
+        "exportName": "FileCard",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "file-card",
+        "group": "容器类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "493:295",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-295&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.file-card.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.file-card.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "文件卡片展示文件名、大小、上传者和日期，左侧带32px文档图标，圆角8px边框卡片。",
+        "extracted": {
+          "size": "width 300px; padding 12px; radius 8px; file-icon 32px",
+          "colors": "border #DFDFDF; title #191919; meta-text #777777",
+          "layout": "flex row; justify between; align end; [icon+name+size] left, [uploader+date] right",
+          "variants": "有图标 / 无图标（propValue 控制）"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.file-card.md",
+          "02-markdown文档/figma/component.file-card.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.file-card",
+          "File Card",
+          "文件卡片",
+          "新增",
+          "容器类",
+          "File Card 文件卡片",
+          "FileCard"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "有图标 / 无图标（propValue 控制）"
+      }
+    },
+    {
+      "id": "component.collapse",
+      "category": "container",
+      "name": "Collapse",
+      "cnName": "折叠面板",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 5,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.collapse",
+          "Collapse",
+          "折叠面板",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.modal-dialog",
+      "category": "container",
+      "name": "Modal / Dialog",
+      "cnName": "对话框",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 6,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.modal-dialog",
+          "Modal / Dialog",
+          "对话框",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.drawer-sheet",
+      "category": "container",
+      "name": "Drawer / Sheet",
+      "cnName": "抽屉",
+      "status": "已有",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 7,
+      "md": {
+        "file": "02-markdown文档/components/component.drawer-sheet.md",
+        "path": "02-markdown文档/components/component.drawer-sheet.md",
+        "title": "Drawer / Sheet 抽屉",
+        "anchor": "drawer-sheet",
+        "line": 6,
+        "summary": "基于 Shadcn/ui `Sheet`。从右侧弹出，遮罩 `rgba(0,0,0,0.3)`。 标题左对齐，× 关闭右对齐；底部操作栏固定（可选）；内容区独立滚动；Esc 或点击遮罩关闭。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.drawer-sheet.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "DrawerPreview",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "drawer-sheet",
+        "group": "容器类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.drawer-sheet.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.drawer-sheet",
+          "Drawer / Sheet",
+          "抽屉",
+          "已有",
+          "容器类",
+          "Drawer / Sheet 抽屉",
+          "DrawerPreview"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.popover",
+      "category": "container",
+      "name": "Popover",
+      "cnName": "气泡弹框",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 8,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.popover",
+          "Popover",
+          "气泡弹框",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.tooltip",
+      "category": "container",
+      "name": "Tooltip",
+      "cnName": "文字提示",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 9,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.tooltip",
+          "Tooltip",
+          "文字提示",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.toolbar",
+      "category": "container",
+      "name": "Toolbar",
+      "cnName": "工具栏",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 10,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.toolbar",
+          "Toolbar",
+          "工具栏",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.split-panel",
+      "category": "container",
+      "name": "Split Panel",
+      "cnName": "分割面板",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📦 容器类",
+      "sheetRow": 11,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.split-panel",
+          "Split Panel",
+          "分割面板",
+          "容器类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.top-navigation",
+      "category": "navigation",
+      "name": "Top Navigation",
+      "cnName": "顶部导航",
+      "status": "? 暂定",
+      "figmaUrl": null,
+      "sheetName": "🧭 导航类",
+      "sheetRow": 3,
+      "md": {
+        "file": "02-markdown文档/components/component.top-navigation.md",
+        "path": "02-markdown文档/components/component.top-navigation.md",
+        "title": "Top Navigation 顶部导航",
+        "anchor": "top-navigation",
+        "line": 6,
+        "summary": "高度 56px，背景 `#FFFFFF`，底部 1px `#E5E7EB` 分隔线。 规则：只承载全局区域切换，不放复杂业务筛选。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.top-navigation.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "TopNavigation",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "top-navigation",
+        "group": "导航类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.top-navigation.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.top-navigation",
+          "Top Navigation",
+          "顶部导航",
+          "? 暂定",
+          "导航类",
+          "Top Navigation 顶部导航",
+          "TopNavigation"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.side-navigation",
+      "category": "navigation",
+      "name": "Side Navigation",
+      "cnName": "侧边导航",
+      "status": "✓ 需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=17-1305&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🧭 导航类",
+      "sheetRow": 4,
+      "md": {
+        "file": "02-markdown文档/components/component.side-navigation.md",
+        "path": "02-markdown文档/components/component.side-navigation.md",
+        "title": "Side Navigation 侧边导航",
+        "anchor": "side-navigation",
+        "line": 6,
+        "summary": "> Figma 左侧导航宽 255px，菜单项高 36px，选中项使用 #EFF6FF 背景，文本 12px/20px。 宽度 255px，水平内边距 16px，菜单项高度 36px，文字 12px，行高 20px。 图标 16px，展开箭头 14px 右侧对齐；当前项只用浅蓝背景，不叠加粗边框；分组标题不可点击。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.side-navigation.md",
+        "figmaContextPath": "02-markdown文档/figma/component.side-navigation.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.side-navigation.screenshot.png"
+      },
+      "component": {
+        "exportName": "SideNavigation",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "side-navigation",
+        "group": "导航类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "17:1305",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=17-1305&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.side-navigation.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.side-navigation.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 左侧导航宽 255px，菜单项高 36px，选中项使用 #EFF6FF 背景，文本 12px/20px。",
+        "extracted": {
+          "size": "width 255px; item height 36px; horizontal padding 16px; icon 16px; arrow 14px",
+          "colors": "selected #EFF6FF; text #191919",
+          "layout": "vertical menu list; item row justify between; optional icon and arrow",
+          "variants": "默认 / 选中; 可有图标 / 可有箭头"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.side-navigation.md",
+          "02-markdown文档/figma/component.side-navigation.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.side-navigation",
+          "Side Navigation",
+          "侧边导航",
+          "✓ 需要",
+          "导航类",
+          "Side Navigation 侧边导航",
+          "SideNavigation"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "默认 / 选中; 可有图标 / 可有箭头"
+      }
+    },
+    {
+      "id": "component.breadcrumb",
+      "category": "navigation",
+      "name": "Breadcrumb",
+      "cnName": "面包屑",
+      "status": "✓ 需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-1214&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🧭 导航类",
+      "sheetRow": 5,
+      "md": {
+        "file": "02-markdown文档/components/component.breadcrumb.md",
+        "path": "02-markdown文档/components/component.breadcrumb.md",
+        "title": "Breadcrumb 面包屑",
+        "anchor": "breadcrumb",
+        "line": 6,
+        "summary": "> Figma 面包屑支持 2/3/4 层路径，项间距 4px，文字 12px/20px，父级 #777777，当前项 #191919，分隔符 #AEAEAE。 基于 Shadcn/ui `Breadcrumb`。字号 12px，行高 20px，项间距 4px。 超过 4 层时中间层折叠为 `…`；可选 Chevron 图标替代 `/`。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.breadcrumb.md",
+        "figmaContextPath": "02-markdown文档/figma/component.breadcrumb.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.breadcrumb.screenshot.png"
+      },
+      "component": {
+        "exportName": "Breadcrumb",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "breadcrumb",
+        "group": "导航类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "278:1214",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-1214&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.breadcrumb.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.breadcrumb.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma 面包屑支持 2/3/4 层路径，项间距 4px，文字 12px/20px，父级 #777777，当前项 #191919，分隔符 #AEAEAE。",
+        "extracted": {
+          "size": "text 12px/20px; gap 4px; optional icon 12px",
+          "colors": "parent #777777; current #191919; separator #AEAEAE",
+          "layout": "inline-flex; horizontal path with slash or icon separator",
+          "variants": "2层 / 3层 / 4层; 默认 / 选中"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.breadcrumb.md",
+          "02-markdown文档/figma/component.breadcrumb.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.breadcrumb",
+          "Breadcrumb",
+          "面包屑",
+          "✓ 需要",
+          "导航类",
+          "Breadcrumb 面包屑"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "2层 / 3层 / 4层; 默认 / 选中"
+      }
+    },
+    {
+      "id": "component.tabs",
+      "category": "navigation",
+      "name": "Tabs",
+      "cnName": "页签",
+      "status": "✓ 需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-561&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🧭 导航类",
+      "sheetRow": 6,
+      "md": {
+        "file": "02-markdown文档/components/component.tabs.md",
+        "path": "02-markdown文档/components/component.tabs.md",
+        "title": "Tabs 页签",
+        "anchor": "tabs",
+        "line": 6,
+        "summary": "> Figma Tabs 容器高度 54px，页签间距 32px，选中项底部 2px 品牌蓝线，文字 14px/20px。 容器高度 54px，页签间距 32px（gap），字号 14px，行高 20px。 用于同层级内容切换；不用于主流程步骤；超出时显示左右滚动箭头。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.tabs.md",
+        "figmaContextPath": "02-markdown文档/figma/component.tabs.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.tabs.screenshot.png"
+      },
+      "component": {
+        "exportName": "Tabs",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "tabs",
+        "group": "导航类",
+        "states": [
+          "active",
+          "inactive"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "278:561",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-561&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.tabs.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.tabs.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma Tabs 容器高度 54px，页签间距 32px，选中项底部 2px 品牌蓝线，文字 14px/20px。",
+        "extracted": {
+          "size": "tab height 54px; active underline 2px; gap 32px; text 14px/20px",
+          "colors": "active underline #0067D1; text #101828",
+          "layout": "horizontal flex tabs; active item with bottom border",
+          "variants": "2 / 3 / 4 / 5 / 6 tabs; 选中 / 未选中"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.tabs.md",
+          "02-markdown文档/figma/component.tabs.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.tabs",
+          "Tabs",
+          "页签",
+          "✓ 需要",
+          "导航类",
+          "Tabs 页签"
+        ],
+        "states": [
+          "active",
+          "inactive"
+        ],
+        "variantSummary": "2 / 3 / 4 / 5 / 6 tabs; 选中 / 未选中"
+      }
+    },
+    {
+      "id": "component.dropdown-menu",
+      "category": "navigation",
+      "name": "Dropdown Menu",
+      "cnName": "下拉菜单",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🧭 导航类",
+      "sheetRow": 7,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.dropdown-menu",
+          "Dropdown Menu",
+          "下拉菜单",
+          "导航类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.pagination",
+      "category": "navigation",
+      "name": "Pagination",
+      "cnName": "分页器",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🧭 导航类",
+      "sheetRow": 8,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.pagination",
+          "Pagination",
+          "分页器",
+          "导航类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.steps",
+      "category": "navigation",
+      "name": "Steps",
+      "cnName": "步骤条",
+      "status": "✓ 需要",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=112-382&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🧭 导航类",
+      "sheetRow": 9,
+      "md": {
+        "file": "02-markdown文档/components/component.steps.md",
+        "path": "02-markdown文档/components/component.steps.md",
+        "title": "Steps 步骤条",
+        "anchor": "steps",
+        "line": 6,
+        "summary": "> Figma Steps 支持 2-5 步，步骤图标 32px 圆形，完成态浅蓝底蓝边，当前态品牌蓝底，待完成态浅灰底灰边，连接线 1px。 步骤图标直径 32px（圆形 rounded-999px），连接线 1px，标题 14px Medium `#191919`，辅助文字 12px `#777777`，图标与文字间距 8px。 变体：水平 / 垂直；可点击 / 不可点击；仅用于流程进度，不用于内容切换。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.steps.md",
+        "figmaContextPath": "02-markdown文档/figma/component.steps.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.steps.screenshot.png"
+      },
+      "component": {
+        "exportName": "Steps",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "steps",
+        "group": "导航类",
+        "states": [
+          "done",
+          "current",
+          "pending",
+          "error"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "112:382",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=112-382&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.steps.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.steps.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Figma Steps 支持 2-5 步，步骤图标 32px 圆形，完成态浅蓝底蓝边，当前态品牌蓝底，待完成态浅灰底灰边，连接线 1px。",
+        "extracted": {
+          "size": "step icon 32x32px; title 14px/22px; helper 12px/20px; connector 1px",
+          "colors": "done bg #E6F2FD border #0067D1; current bg #0067D1 text #FFFFFF; pending bg rgba(25,25,25,0.05) border #C9C9C9; connector #0067D1/#DFDFDF",
+          "layout": "horizontal flex; icon above title/helper; connector centered to icon",
+          "variants": "2 / 3 / 4 / 5 steps; 完成 / 当前 / 待完成"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.steps.md",
+          "02-markdown文档/figma/component.steps.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.steps",
+          "Steps",
+          "步骤条",
+          "✓ 需要",
+          "导航类",
+          "Steps 步骤条"
+        ],
+        "states": [
+          "done",
+          "current",
+          "pending",
+          "error"
+        ],
+        "variantSummary": "2 / 3 / 4 / 5 steps; 完成 / 当前 / 待完成"
+      }
+    },
+    {
+      "id": "component.back-button",
+      "category": "navigation",
+      "name": "Back Button",
+      "cnName": "返回按钮",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🧭 导航类",
+      "sheetRow": 10,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.back-button",
+          "Back Button",
+          "返回按钮",
+          "导航类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.anchor",
+      "category": "navigation",
+      "name": "Anchor",
+      "cnName": "锚点导航",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🧭 导航类",
+      "sheetRow": 11,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.anchor",
+          "Anchor",
+          "锚点导航",
+          "导航类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.form",
+      "category": "form",
+      "name": "Form",
+      "cnName": "表单容器",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📝 表单类",
+      "sheetRow": 3,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.form",
+          "Form",
+          "表单容器",
+          "表单类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.form-item",
+      "category": "form",
+      "name": "Form Item",
+      "cnName": "表单项",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📝 表单类",
+      "sheetRow": 4,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.form-item",
+          "Form Item",
+          "表单项",
+          "表单类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.校验状态-validation",
+      "category": "form",
+      "name": "Validation",
+      "cnName": "校验状态",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📝 表单类",
+      "sheetRow": 5,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.校验状态-validation",
+          "Validation",
+          "校验状态",
+          "表单类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.help-text",
+      "category": "form",
+      "name": "Help Text",
+      "cnName": "帮助文字",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📝 表单类",
+      "sheetRow": 6,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.help-text",
+          "Help Text",
+          "帮助文字",
+          "表单类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.table",
+      "category": "data-display",
+      "name": "Table",
+      "cnName": "表格",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 3,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.table",
+          "Table",
+          "表格",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.list",
+      "category": "data-display",
+      "name": "List",
+      "cnName": "列表",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 4,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.list",
+          "List",
+          "列表",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.tree",
+      "category": "data-display",
+      "name": "Tree",
+      "cnName": "树形控件",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 5,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.tree",
+          "Tree",
+          "树形控件",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.avatar",
+      "category": "data-display",
+      "name": "Avatar",
+      "cnName": "头像",
+      "status": "✓ 已有",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 6,
+      "md": {
+        "file": "02-markdown文档/components/component.avatar.md",
+        "path": "02-markdown文档/components/component.avatar.md",
+        "title": "Avatar 头像",
+        "anchor": "avatar",
+        "line": 6,
+        "summary": "基于 Shadcn/ui `Avatar`。圆形（圆角 9999px）。 兜底：图片加载失败 → 首字母（背景 `#D1D5DC`，文字 `#FFFFFF`）。Group 叠加间距 −8px，超出显示 +N。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.avatar.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "Avatar",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "avatar",
+        "group": "数据展示类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.avatar.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.avatar",
+          "Avatar",
+          "头像",
+          "✓ 已有",
+          "数据展示类",
+          "Avatar 头像"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.badge",
+      "category": "data-display",
+      "name": "Badge",
+      "cnName": "徽章",
+      "status": "✓ 已有",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 7,
+      "md": {
+        "file": "02-markdown文档/components/component.badge.md",
+        "path": "02-markdown文档/components/component.badge.md",
+        "title": "Badge 徽章",
+        "anchor": "badge",
+        "line": 6,
+        "summary": "仅用于状态标识，不用于装饰。字号 11px，高度 20px，圆角 4px。 数字徽章：小红点直径 8px，背景 `#FF4D4F`，文字 `#FFFFFF`；超过 99 显示 99+；叠加在目标元素右上角。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.badge.md",
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": {
+        "exportName": "Badge",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "badge",
+        "group": "数据展示类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.badge.md",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.badge",
+          "Badge",
+          "徽章",
+          "✓ 已有",
+          "数据展示类",
+          "Badge 徽章"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.progress",
+      "category": "data-display",
+      "name": "Progress",
+      "cnName": "进度条",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 8,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.progress",
+          "Progress",
+          "进度条",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.statistic",
+      "category": "data-display",
+      "name": "Statistic",
+      "cnName": "指标块",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 9,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.statistic",
+          "Statistic",
+          "指标块",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.empty-state",
+      "category": "data-display",
+      "name": "Empty State",
+      "cnName": "空状态",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 10,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.empty-state",
+          "Empty State",
+          "空状态",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.skeleton",
+      "category": "data-display",
+      "name": "Skeleton",
+      "cnName": "骨架屏",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 11,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.skeleton",
+          "Skeleton",
+          "骨架屏",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.descriptions",
+      "category": "data-display",
+      "name": "Descriptions",
+      "cnName": "描述列表",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 12,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.descriptions",
+          "Descriptions",
+          "描述列表",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.divider",
+      "category": "data-display",
+      "name": "Divider",
+      "cnName": "分隔线",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "📊 数据展示类",
+      "sheetRow": 13,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.divider",
+          "Divider",
+          "分隔线",
+          "数据展示类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.alert",
+      "category": "feedback",
+      "name": "Alert",
+      "cnName": "行内提示",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🔔 反馈类",
+      "sheetRow": 3,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.alert",
+          "Alert",
+          "行内提示",
+          "反馈类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.toast-message",
+      "category": "feedback",
+      "name": "Toast / Message",
+      "cnName": "全局提示",
+      "status": "新增",
+      "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-350&t=MwJLOtifyWl4Xd53-4",
+      "sheetName": "🔔 反馈类",
+      "sheetRow": 4,
+      "md": {
+        "file": "02-markdown文档/components/component.toast-message.md",
+        "path": "02-markdown文档/components/component.toast-message.md",
+        "title": "Toast / Message 全局提示",
+        "anchor": "toast-message",
+        "line": 6,
+        "summary": "> Toast全局提示为白色浮层卡片，宽269px，含状态图标、主文字、关闭按钮，可选描述行。 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+      },
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": "02-markdown文档/components/component.toast-message.md",
+        "figmaContextPath": "02-markdown文档/figma/component.toast-message.context.json",
+        "figmaScreenshotPath": "02-markdown文档/figma/component.toast-message.screenshot.png"
+      },
+      "component": {
+        "exportName": "Toast",
+        "path": "03-开发组件/components.tsx",
+        "examplePath": "03-开发组件/interactiveDemos.tsx"
+      },
+      "preview": {
+        "anchor": "toast-message",
+        "group": "反馈类",
+        "states": [
+          "default"
+        ]
+      },
+      "syncStatus": "synced",
+      "syncError": "",
+      "management": {
+        "note": ""
+      },
+      "figma": {
+        "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+        "nodeId": "493:350",
+        "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-350&t=MwJLOtifyWl4Xd53-4",
+        "contextPath": "02-markdown文档/figma/component.toast-message.context.json",
+        "screenshotPath": "02-markdown文档/figma/component.toast-message.screenshot.png",
+        "hasContext": true,
+        "hasScreenshot": true,
+        "summary": "Toast全局提示为白色浮层卡片，宽269px，含状态图标、主文字、关闭按钮，可选描述行。",
+        "extracted": {
+          "size": "width 269px; padding 12px 16px; radius 8px; status-icon 14px; close-icon 8px",
+          "colors": "background #FFFFFF; shadow 0px 8px 8px rgba(0,0,0,0.16); title #191919; description #777777",
+          "layout": "flex col; gap 8px; header row justify-between [icon+title] and [close-icon]; optional description row with 22px left indent",
+          "variants": "普通 / 带描述（propValue）; Variant2"
+        }
+      },
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/components/component.toast-message.md",
+          "02-markdown文档/figma/component.toast-message.context.json",
+          "03-开发组件/components.tsx",
+          "03-开发组件/interactiveDemos.tsx"
+        ],
+        "keywords": [
+          "component.toast-message",
+          "Toast / Message",
+          "全局提示",
+          "新增",
+          "反馈类",
+          "Toast / Message 全局提示",
+          "Toast"
+        ],
+        "states": [
+          "default"
+        ],
+        "variantSummary": "普通 / 带描述（propValue）; Variant2"
+      }
+    },
+    {
+      "id": "component.notification",
+      "category": "feedback",
+      "name": "Notification",
+      "cnName": "通知提醒",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🔔 反馈类",
+      "sheetRow": 5,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.notification",
+          "Notification",
+          "通知提醒",
+          "反馈类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.spin-loading",
+      "category": "feedback",
+      "name": "Spin / Loading",
+      "cnName": "加载",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🔔 反馈类",
+      "sheetRow": 6,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.spin-loading",
+          "Spin / Loading",
+          "加载",
+          "反馈类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    },
+    {
+      "id": "component.popconfirm",
+      "category": "feedback",
+      "name": "Popconfirm",
+      "cnName": "气泡确认",
+      "status": "",
+      "figmaUrl": null,
+      "sheetName": "🔔 反馈类",
+      "sheetRow": 7,
+      "md": null,
+      "docs": {
+        "basePath": "02-markdown文档/BASE.md",
+        "aggregatePath": "02-markdown文档/COMPONENTS.md",
+        "componentPath": null,
+        "figmaContextPath": null,
+        "figmaScreenshotPath": null
+      },
+      "component": null,
+      "preview": null,
+      "syncStatus": "missing-md",
+      "syncError": "No matching component doc in 02-markdown文档/components/",
+      "management": {
+        "note": ""
+      },
+      "figma": null,
+      "retrieval": {
+        "recommendedContextPaths": [
+          "02-markdown文档/BASE.md",
+          "02-markdown文档/COMPONENTS.md"
+        ],
+        "keywords": [
+          "component.popconfirm",
+          "Popconfirm",
+          "气泡确认",
+          "反馈类"
+        ],
+        "states": [],
+        "variantSummary": ""
+      }
+    }
+  ]
+}

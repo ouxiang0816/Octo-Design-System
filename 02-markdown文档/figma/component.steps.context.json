@@ -1,0 +1,11 @@
+{
+  "id": "component.steps",
+  "source": "figma-mcp:get_design_context",
+  "summary": "Figma Steps 支持 2-5 步，步骤图标 32px 圆形，完成态浅蓝底蓝边，当前态品牌蓝底，待完成态浅灰底灰边，连接线 1px。",
+  "extracted": {
+    "size": "step icon 32x32px; title 14px/22px; helper 12px/20px; connector 1px",
+    "colors": "done bg #E6F2FD border #0067D1; current bg #0067D1 text #FFFFFF; pending bg rgba(25,25,25,0.05) border #C9C9C9; connector #0067D1/#DFDFDF",
+    "layout": "horizontal flex; icon above title/helper; connector centered to icon",
+    "variants": "2 / 3 / 4 / 5 steps; 完成 / 当前 / 待完成"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "component.select",
+  "source": "figma-mcp:get_design_context",
+  "summary": "Figma 下拉选择包含默认与选中/展开状态。触发器圆角 4px，边框默认 #C9C9C9，展开时边框 #0067D1，下拉面板白底并使用 0 4px 4px rgba(0,0,0,0.16) 阴影。",
+  "extracted": {
+    "size": "trigger height about 32px; padding 4px 12px; menu item padding 4px 8px; radius 4px",
+    "colors": "border default #C9C9C9; open #0067D1; text #191919; background #FFFFFF",
+    "layout": "trigger inline-flex gap 8px; expanded menu vertical list width 96px",
+    "variants": "默认 / 选中（展开）"
+  }
+}
