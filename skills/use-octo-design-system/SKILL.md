@@ -51,4 +51,6 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/02-markdow
 
 - 如读取失败（文件不存在或 URL 不可达），告知用户并请求提供 `AI_REFERENCE.md` 文件路径。
 - `AI_REFERENCE.md` 是自动生成文件，内容以该文件为准，不依赖记忆中的规范。
-- 如果用户要求的组件不在可用组件列表中，说明当前未实现，并用符合 Token 规范的原生 HTML/Tailwind 替代。
+- 如果用户要求的组件不在可用组件列表中，按以下两步处理：
+  1. **基础保底**：所有颜色、字号、圆角、间距必须严格使用 `## Design Tokens` 中的值，不得使用任何未定义的魔法数字
+  2. **视觉对齐**：用 WebFetch 读取最相近的已有组件规范（`https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/02-markdown%E6%96%87%E6%A1%A3/components/component.{最近似组件id}.md`），以其视觉结构（高度、padding、边框、状态样式）为基准实现，并在代码注释中注明 `// TODO: 此组件暂未纳入设计系统，建议补充规范`

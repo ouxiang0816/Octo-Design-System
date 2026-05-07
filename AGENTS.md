@@ -30,7 +30,9 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 
 - 颜色、字号、圆角严格使用 `AI_REFERENCE.md` 中 `## Design Tokens` 定义的值
 - 使用 React + TypeScript + Tailwind CSS
-- 未实现的组件用符合 Token 规范的原生 HTML/Tailwind 替代，并注明"此组件暂未实现"
+- 未实现的组件按以下两步处理：
+  1. **基础保底**：所有颜色、字号、圆角、间距严格使用 `## Design Tokens` 中的值，不得使用未定义的魔法数字
+  2. **视觉对齐**：获取最相近的已有组件规范（URL：`https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/02-markdown%E6%96%87%E6%A1%A3/components/component.{最近似组件id}.md`），以其高度、padding、边框、状态样式为基准实现，并在代码中注明 `// TODO: 此组件暂未纳入设计系统，建议补充规范`
 
 ## 注意
 
