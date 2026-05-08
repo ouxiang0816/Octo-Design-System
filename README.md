@@ -46,3 +46,9 @@ npm run ds:check
 ```shell
 /octo-design-system:use-octo-design-system
 ```
+
+已安装过的成员，更新到最新版本：
+
+```shell
+/plugin marketplace update Octo-Design-System
+```
