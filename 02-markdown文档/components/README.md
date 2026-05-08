@@ -23,7 +23,10 @@
 | `component.side-navigation` | Side Navigation 侧边导航 | [component.side-navigation.md](component.side-navigation.md) | `SideNavigation` | `synced` |
 | `component.breadcrumb` | Breadcrumb 面包屑 | [component.breadcrumb.md](component.breadcrumb.md) | `Breadcrumb` | `synced` |
 | `component.tabs` | Tabs 页签 | [component.tabs.md](component.tabs.md) | `Tabs` | `synced` |
+| `component.split-tabs` | Split Tabs 分割线页签 | [component.split-tabs.md](component.split-tabs.md) | `SplitTabs` | `synced` |
+| `component.selecter-tabs` | Selecter Tabs 选块页签 | [component.selecter-tabs.md](component.selecter-tabs.md) | `SelecterTabs` | `synced` |
 | `component.steps` | Steps 步骤条 | [component.steps.md](component.steps.md) | `Steps` | `synced` |
 | `component.avatar` | Avatar 头像 | [component.avatar.md](component.avatar.md) | `Avatar` | `synced` |
 | `component.badge` | Badge 徽章 | [component.badge.md](component.badge.md) | `Badge` | `synced` |
+| `component.progress` | Progress | [component.progress.md](component.progress.md) | `Progress` | `synced` |
 | `component.toast-message` | Toast / Message 全局提示 | [component.toast-message.md](component.toast-message.md) | `Toast` | `synced` |

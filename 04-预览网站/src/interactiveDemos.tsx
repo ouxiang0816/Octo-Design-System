@@ -13,9 +13,12 @@ import {
   IconButton,
   Input,
   InteractiveFrame,
+  Progress,
   Radio,
   SelectBox,
+  SelecterTabs,
   SideNavigation,
+  SplitTabs,
   Stepper,
   Steps,
   Switch,
@@ -119,6 +122,40 @@ function SwitchDemo() {
   )
 }
 
+function SplitTabsDemo() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SplitTabs items={['页签一', '页签二']} />
+      <SplitTabs items={['页签一', '页签二', '页签三']} />
+      <SplitTabs items={['全部', '进行中', '已完成', '已取消']} />
+    </div>
+  )
+}
+
+function SelecterTabsDemo() {
+  return (
+    <div className="flex flex-col gap-4">
+      <SelecterTabs items={['列表视图', '卡片视图']} />
+      <SelecterTabs items={['天', '周', '月']} />
+      <SelecterTabs items={['全部', '待办', '进行中', '已完成']} />
+    </div>
+  )
+}
+
+function ProgressDemo() {
+  const [value, setValue] = useState(30)
+  const [showActions, setShowActions] = useState(true)
+  return (
+    <InteractiveFrame title="拖动进度 / 点击暂停或取消">
+      <div className="flex w-full flex-col gap-4">
+        <Progress label="安装进度" value={value} showActions={showActions} onPause={() => setShowActions(false)} onCancel={() => setValue(0)} />
+        <Progress label="上传进度" value={72} showActions={false} />
+        <input type="range" min={0} max={100} value={value} onChange={(e) => { setValue(Number(e.target.value)); setShowActions(true) }} className="w-full" />
+      </div>
+    </InteractiveFrame>
+  )
+}
+
 export const componentDemoMap: Record<string, ReactNode> = {
   'component.button': (
     <div className="flex flex-wrap items-center gap-3">
@@ -189,6 +226,9 @@ export const componentDemoMap: Record<string, ReactNode> = {
     </div>
   ),
   'component.toast-message': <ToastDemo />,
+  'component.split-tabs': <SplitTabsDemo />,
+  'component.selecter-tabs': <SelecterTabsDemo />,
+  'component.progress': <ProgressDemo />,
 }
 
 export const fallbackDemo = <ToolbarExample />

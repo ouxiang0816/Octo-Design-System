@@ -23,7 +23,7 @@ export type DesignSystemEntry = {
   retrieval: { recommendedContextPaths: string[]; keywords: string[]; states: string[]; variantSummary: string }
 }
 
-export const syncGeneratedAt = "2026-05-07T09:50:32+00:00"
+export const syncGeneratedAt = "2026-05-08T11:16:54+00:00"
 export const designSystemCategories = [
   {
     "id": "foundation",
@@ -1872,7 +1872,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "basic",
     "name": "步进器",
     "cnName": "步进器",
-    "status": "新增",
+    "status": "已有",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-403&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🔵 基础类",
     "sheetRow": 18,
@@ -1935,7 +1935,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
       "keywords": [
         "component.步进器",
         "步进器",
-        "新增",
+        "已有",
         "基础类",
         "步进器 步进器",
         "Stepper"
@@ -1951,7 +1951,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "basic",
     "name": "File Upload",
     "cnName": "文件上传",
-    "status": "新增",
+    "status": "已有",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=716-272&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🔵 基础类",
     "sheetRow": 19,
@@ -2015,7 +2015,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.file-upload",
         "File Upload",
         "文件上传",
-        "新增",
+        "已有",
         "基础类",
         "File Upload 文件上传",
         "FileUpload"
@@ -2071,7 +2071,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "File Card",
     "cnName": "文件卡片",
-    "status": "新增",
+    "status": "已有",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-295&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "📦 容器类",
     "sheetRow": 4,
@@ -2135,7 +2135,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.file-card",
         "File Card",
         "文件卡片",
-        "新增",
+        "已有",
         "容器类",
         "File Card 文件卡片",
         "FileCard"
@@ -2455,7 +2455,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Top Navigation",
     "cnName": "顶部导航",
-    "status": "? 暂定",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
     "sheetRow": 3,
@@ -2503,7 +2503,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.top-navigation",
         "Top Navigation",
         "顶部导航",
-        "? 暂定",
+        "暂定",
         "导航类",
         "Top Navigation 顶部导航",
         "TopNavigation"
@@ -2519,7 +2519,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Side Navigation",
     "cnName": "侧边导航",
-    "status": "✓ 需要",
+    "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=17-1305&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
     "sheetRow": 4,
@@ -2583,7 +2583,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.side-navigation",
         "Side Navigation",
         "侧边导航",
-        "✓ 需要",
+        "需要",
         "导航类",
         "Side Navigation 侧边导航",
         "SideNavigation"
@@ -2599,7 +2599,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Breadcrumb",
     "cnName": "面包屑",
-    "status": "✓ 需要",
+    "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-1214&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
     "sheetRow": 5,
@@ -2663,7 +2663,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.breadcrumb",
         "Breadcrumb",
         "面包屑",
-        "✓ 需要",
+        "需要",
         "导航类",
         "Breadcrumb 面包屑"
       ],
@@ -2678,7 +2678,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Tabs",
     "cnName": "页签",
-    "status": "✓ 需要",
+    "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-561&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
     "sheetRow": 6,
@@ -2743,7 +2743,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.tabs",
         "Tabs",
         "页签",
-        "✓ 需要",
+        "需要",
         "导航类",
         "Tabs 页签"
       ],
@@ -2755,6 +2755,166 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
+    "id": "component.split-tabs",
+    "category": "navigation",
+    "name": "Split Tabs",
+    "cnName": "分割线页签",
+    "status": "新增",
+    "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=747-284&t=c3kqE9nJlM81M4uv-4",
+    "sheetName": "🧭 导航类",
+    "sheetRow": 7,
+    "md": {
+      "file": "02-markdown文档/components/component.split-tabs.md",
+      "path": "02-markdown文档/components/component.split-tabs.md",
+      "title": "Split Tabs 分割线页签",
+      "anchor": "split-tabs",
+      "line": 6,
+      "summary": "> Split Tabs 分割线页签：水平排列的页签组，用竖向分隔线隔开各页签，选中项蓝色加粗，未选中灰色常规字重 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+    },
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": "02-markdown文档/components/component.split-tabs.md",
+      "figmaContextPath": "02-markdown文档/figma/component.split-tabs.context.json",
+      "figmaScreenshotPath": "02-markdown文档/figma/component.split-tabs.screenshot.png"
+    },
+    "component": {
+      "exportName": "SplitTabs",
+      "path": "03-开发组件/components.tsx",
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
+    },
+    "preview": {
+      "anchor": "split-tabs",
+      "group": "导航类",
+      "states": [
+        "default"
+      ]
+    },
+    "syncStatus": "synced",
+    "syncError": "",
+    "management": {
+      "note": ""
+    },
+    "figma": {
+      "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+      "nodeId": "747:284",
+      "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=747-284&t=c3kqE9nJlM81M4uv-4",
+      "contextPath": "02-markdown文档/figma/component.split-tabs.context.json",
+      "screenshotPath": "02-markdown文档/figma/component.split-tabs.screenshot.png",
+      "hasContext": true,
+      "hasScreenshot": true,
+      "summary": "Split Tabs 分割线页签：水平排列的页签组，用竖向分隔线隔开各页签，选中项蓝色加粗，未选中灰色常规字重",
+      "extracted": {
+        "size": "tab item: px-12px py-4px; 分隔线: height 20px, width 0 (1px border); 容器无固定宽度，flex 自适应",
+        "colors": "选中文字: #0067D1 font-medium; 未选中文字: #191919 font-regular; 分隔线: #DFDFDF",
+        "layout": "flex row, items-center; 每个 tab item 为 flex 居中; 分隔线穿插在 tab 之间",
+        "variants": "property1: '1'|'2'|'3'|'4' 控制显示 1–4 个页签; 每个 tab 内部 property1: '选择'|'未选中'"
+      }
+    },
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/components/component.split-tabs.md",
+        "02-markdown文档/figma/component.split-tabs.context.json",
+        "03-开发组件/components.tsx",
+        "04-预览网站/src/interactiveDemos.tsx"
+      ],
+      "keywords": [
+        "component.split-tabs",
+        "Split Tabs",
+        "分割线页签",
+        "新增",
+        "导航类",
+        "Split Tabs 分割线页签",
+        "SplitTabs"
+      ],
+      "states": [
+        "default"
+      ],
+      "variantSummary": "property1: '1'|'2'|'3'|'4' 控制显示 1–4 个页签; 每个 tab 内部 property1: '选择'|'未选中'"
+    }
+  },
+  {
+    "id": "component.selecter-tabs",
+    "category": "navigation",
+    "name": "Selecter Tabs",
+    "cnName": "选块页签",
+    "status": "新增",
+    "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=747-387&t=c3kqE9nJlM81M4uv-4",
+    "sheetName": "🧭 导航类",
+    "sheetRow": 8,
+    "md": {
+      "file": "02-markdown文档/components/component.selecter-tabs.md",
+      "path": "02-markdown文档/components/component.selecter-tabs.md",
+      "title": "Selecter Tabs 选块页签",
+      "anchor": "selecter-tabs",
+      "line": 6,
+      "summary": "> Selecter Tabs 选块页签：胶囊容器内的页签切换，选中项白底高亮，未选中项融入灰色背景 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+    },
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": "02-markdown文档/components/component.selecter-tabs.md",
+      "figmaContextPath": "02-markdown文档/figma/component.selecter-tabs.context.json",
+      "figmaScreenshotPath": "02-markdown文档/figma/component.selecter-tabs.screenshot.png"
+    },
+    "component": {
+      "exportName": "SelecterTabs",
+      "path": "03-开发组件/components.tsx",
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
+    },
+    "preview": {
+      "anchor": "selecter-tabs",
+      "group": "导航类",
+      "states": [
+        "default"
+      ]
+    },
+    "syncStatus": "synced",
+    "syncError": "",
+    "management": {
+      "note": ""
+    },
+    "figma": {
+      "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+      "nodeId": "747:387",
+      "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=747-387&t=c3kqE9nJlM81M4uv-4",
+      "contextPath": "02-markdown文档/figma/component.selecter-tabs.context.json",
+      "screenshotPath": "02-markdown文档/figma/component.selecter-tabs.screenshot.png",
+      "hasContext": true,
+      "hasScreenshot": true,
+      "summary": "Selecter Tabs 选块页签：胶囊容器内的页签切换，选中项白底高亮，未选中项融入灰色背景",
+      "extracted": {
+        "size": "容器: p-2px rounded-4px; tab item: px-12px py-4px rounded-4px; 无固定宽度",
+        "colors": "容器背景: rgba(25,25,25,0.05); 选中 tab: bg-white text #0067D1 font-medium; 未选中 tab: transparent text #191919 font-regular",
+        "layout": "flex row, items-center, p-2px; 每个 tab item 为 flex 居中，rounded-4px",
+        "variants": "property1: '2'|'3'|'4'|'5' 控制显示 2–5 个页签; 每个 tab property1: true(选中)/false(未选中)"
+      }
+    },
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/components/component.selecter-tabs.md",
+        "02-markdown文档/figma/component.selecter-tabs.context.json",
+        "03-开发组件/components.tsx",
+        "04-预览网站/src/interactiveDemos.tsx"
+      ],
+      "keywords": [
+        "component.selecter-tabs",
+        "Selecter Tabs",
+        "选块页签",
+        "新增",
+        "导航类",
+        "Selecter Tabs 选块页签",
+        "SelecterTabs"
+      ],
+      "states": [
+        "default"
+      ],
+      "variantSummary": "property1: '2'|'3'|'4'|'5' 控制显示 2–5 个页签; 每个 tab property1: true(选中)/false(未选中)"
+    }
+  },
+  {
     "id": "component.dropdown-menu",
     "category": "navigation",
     "name": "Dropdown Menu",
@@ -2762,7 +2922,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 7,
+    "sheetRow": 9,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -2802,7 +2962,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 8,
+    "sheetRow": 10,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -2839,10 +2999,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Steps",
     "cnName": "步骤条",
-    "status": "✓ 需要",
+    "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=112-382&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 9,
+    "sheetRow": 11,
     "md": {
       "file": "02-markdown文档/components/component.steps.md",
       "path": "02-markdown文档/components/component.steps.md",
@@ -2906,7 +3066,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.steps",
         "Steps",
         "步骤条",
-        "✓ 需要",
+        "需要",
         "导航类",
         "Steps 步骤条"
       ],
@@ -2927,7 +3087,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 10,
+    "sheetRow": 12,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -2967,7 +3127,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 11,
+    "sheetRow": 13,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -3406,46 +3566,6 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.progress",
-    "category": "data-display",
-    "name": "Progress",
-    "cnName": "进度条",
-    "status": "",
-    "figmaUrl": null,
-    "sheetName": "📊 数据展示类",
-    "sheetRow": 8,
-    "md": null,
-    "docs": {
-      "basePath": "02-markdown文档/BASE.md",
-      "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": null,
-      "figmaContextPath": null,
-      "figmaScreenshotPath": null
-    },
-    "component": null,
-    "preview": null,
-    "syncStatus": "missing-md",
-    "syncError": "No matching component doc in 02-markdown文档/components/",
-    "management": {
-      "note": ""
-    },
-    "figma": null,
-    "retrieval": {
-      "recommendedContextPaths": [
-        "02-markdown文档/BASE.md",
-        "02-markdown文档/COMPONENTS.md"
-      ],
-      "keywords": [
-        "component.progress",
-        "Progress",
-        "进度条",
-        "数据展示类"
-      ],
-      "states": [],
-      "variantSummary": ""
-    }
-  },
-  {
     "id": "component.statistic",
     "category": "data-display",
     "name": "Statistic",
@@ -3686,14 +3806,92 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
+    "id": "component.progress",
+    "category": "feedback",
+    "name": "Progress",
+    "cnName": "进度条",
+    "status": "新增",
+    "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4",
+    "sheetName": "🔔 反馈类",
+    "sheetRow": 4,
+    "md": {
+      "file": "02-markdown文档/components/component.progress.md",
+      "path": "02-markdown文档/components/component.progress.md",
+      "title": "Progress",
+      "anchor": "progress",
+      "line": 6,
+      "summary": "> Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+    },
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": "02-markdown文档/components/component.progress.md",
+      "figmaContextPath": "02-markdown文档/figma/component.progress.context.json",
+      "figmaScreenshotPath": "02-markdown文档/figma/component.progress.screenshot.png"
+    },
+    "component": {
+      "exportName": "Progress",
+      "path": "03-开发组件/components.tsx",
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
+    },
+    "preview": {
+      "anchor": "progress",
+      "group": "反馈类",
+      "states": [
+        "default"
+      ]
+    },
+    "syncStatus": "synced",
+    "syncError": "",
+    "management": {
+      "note": ""
+    },
+    "figma": {
+      "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+      "nodeId": "748:456",
+      "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4",
+      "contextPath": "02-markdown文档/figma/component.progress.context.json",
+      "screenshotPath": "02-markdown文档/figma/component.progress.screenshot.png",
+      "hasContext": true,
+      "hasScreenshot": true,
+      "summary": "Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随",
+      "extracted": {
+        "size": "容器宽度: 227px (flex 可拉伸); 轨道高度: 4px rounded-30px; 进度条高度: 4px rounded-28px; label/操作文字: text-12px leading-20px",
+        "colors": "轨道背景: #DFDFDF; 进度填充: #0067D1; 标签文字: #191919; 操作链接(暂停/取消): #0067D1; 百分比: #191919",
+        "layout": "flex col, items-start; 上行: label 左 + 操作链接 右 (justify-between pr-32px); 下行: 轨道 flex-1 + 百分比文字 gap-8px",
+        "variants": "propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮"
+      }
+    },
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/components/component.progress.md",
+        "02-markdown文档/figma/component.progress.context.json",
+        "03-开发组件/components.tsx",
+        "04-预览网站/src/interactiveDemos.tsx"
+      ],
+      "keywords": [
+        "component.progress",
+        "Progress",
+        "进度条",
+        "新增",
+        "反馈类"
+      ],
+      "states": [
+        "default"
+      ],
+      "variantSummary": "propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮"
+    }
+  },
+  {
     "id": "component.toast-message",
     "category": "feedback",
     "name": "Toast / Message",
     "cnName": "全局提示",
-    "status": "新增",
+    "status": "已有",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-350&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🔔 反馈类",
-    "sheetRow": 4,
+    "sheetRow": 5,
     "md": {
       "file": "02-markdown文档/components/component.toast-message.md",
       "path": "02-markdown文档/components/component.toast-message.md",
@@ -3754,7 +3952,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.toast-message",
         "Toast / Message",
         "全局提示",
-        "新增",
+        "已有",
         "反馈类",
         "Toast / Message 全局提示",
         "Toast"
@@ -3773,7 +3971,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🔔 反馈类",
-    "sheetRow": 5,
+    "sheetRow": 6,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -3813,7 +4011,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🔔 反馈类",
-    "sheetRow": 6,
+    "sheetRow": 7,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -3853,7 +4051,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "",
     "figmaUrl": null,
     "sheetName": "🔔 反馈类",
-    "sheetRow": 7,
+    "sheetRow": 8,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",

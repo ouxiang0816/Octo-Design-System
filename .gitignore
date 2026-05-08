@@ -20,3 +20,18 @@ __pycache__/
 # Editor
 .vscode/
 .idea/
+
+# 维护侧内部文件 — 不对外分发
+# Excel 组件清单（含业务备注，仅维护者本地使用）
+01-excel表/
+
+# Figma 缓存（截图 + context JSON，仅同步脚本使用）
+02-markdown文档/figma/
+
+# 维护脚本（内部工具链，team skill 不依赖）
+05-自动化工作流/scripts/
+
+# 本地备份
+02-markdown文档/figma/
+*.full-backup.xlsx
+*.numbers

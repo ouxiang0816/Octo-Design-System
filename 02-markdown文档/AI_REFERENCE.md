@@ -1,7 +1,13 @@
 # Octo Design System · AI Reference
 
-> 自动生成，请勿手动编辑。最后同步：2026-05-07 09:50 UTC
+> 自动生成，请勿手动编辑。最后同步：2026-05-08 11:16 UTC
 > 供 Claude Code / Codex / OpenCode 等 AI 编码工具读取，确保生成代码符合 Octo 设计规范。
+
+---
+
+## 最近更新
+
+- `2026-05-08 11:16 UTC` — 共 25 个组件，新增 25 个：头像、徽章、面包屑、按钮、复选框、抽屉、文件卡片、文件上传、图标按钮、输入框、进度条、单选框、搜索框、下拉选择、选块页签、侧边导航、分割线页签、步骤条、开关、页签、标签、文字链接、全局提示、顶部导航、步进器
 
 ---
 
@@ -36,9 +42,12 @@
 | `component.side-navigation` | 侧边导航 | `SideNavigation` | 导航类 |
 | `component.breadcrumb` | 面包屑 | `Breadcrumb` | 导航类 |
 | `component.tabs` | 页签 | `Tabs` | 导航类 |
+| `component.split-tabs` | 分割线页签 | `SplitTabs` | 导航类 |
+| `component.selecter-tabs` | 选块页签 | `SelecterTabs` | 导航类 |
 | `component.steps` | 步骤条 | `Steps` | 导航类 |
 | `component.avatar` | 头像 | `Avatar` | 数据展示类 |
 | `component.badge` | 徽章 | `Badge` | 数据展示类 |
+| `component.progress` | 进度条 | `Progress` | 反馈类 |
 | `component.toast-message` | 全局提示 | `Toast` | 反馈类 |
 
 ## 导入方式
@@ -63,9 +72,12 @@ import {
   SideNavigation,
   Breadcrumb,
   Tabs,
+  SplitTabs,
+  SelecterTabs,
   Steps,
   Avatar,
   Badge,
+  Progress,
   Toast,
 } from '@octo/design-system'
 ```
@@ -242,12 +254,42 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 
 ### Stepper（步进器）
 
+> 步进器由减号图标、竖线分隔符、数值、竖线分隔符、加号图标横向排列，边框圆角4px。
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | height ~30px; padding 8px 12px; radius 4px; icon 14px; separator 1px vertical line |
+| 颜色 | border #DFDFDF; text #191919; background #FFFFFF |
+| 布局 | flex row; align center; gap 14px; [minus-icon] | [number] | [plus-icon] |
+| 变体/状态 | 默认（展示数值） |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
 
 ### FileUpload（文件上传）
 
+> 文件上传区为虚线边框拖拽区域，宽375px高200px，中央竖向排列上传图标、提示文字和格式说明。
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | width 375px; height 200px; radius 4px; plus-icon 20px |
+| 颜色 | background rgba(25,25,25,0.05); border dashed #DFDFDF; text #191919; link-text #0067D1; helper #777777 |
+| 布局 | flex col; center; gap 8px; [plus-icon] above [text+link] above [helper-text] |
+| 变体/状态 | 默认上传区 |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
 
 ### FileCard（文件卡片）
 
+> 文件卡片展示文件名、大小、上传者和日期，左侧带32px文档图标，圆角8px边框卡片。
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | width 300px; padding 12px; radius 8px; file-icon 32px |
+| 颜色 | border #DFDFDF; title #191919; meta-text #777777 |
+| 布局 | flex row; justify between; align end; [icon+name+size] left, [uploader+date] right |
+| 变体/状态 | 有图标 / 无图标（propValue 控制） |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
 
 ### DrawerPreview（抽屉）
 
@@ -312,6 +354,32 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 | 未选中 | `#101828` | Regular | 无 |
 
 用于同层级内容切换；不用于主流程步骤；超出时显示左右滚动箭头。
+
+### SplitTabs（分割线页签）
+
+> Split Tabs 分割线页签：水平排列的页签组，用竖向分隔线隔开各页签，选中项蓝色加粗，未选中灰色常规字重
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | tab item: px-12px py-4px; 分隔线: height 20px, width 0 (1px border); 容器无固定宽度，flex 自适应 |
+| 颜色 | 选中文字: #0067D1 font-medium; 未选中文字: #191919 font-regular; 分隔线: #DFDFDF |
+| 布局 | flex row, items-center; 每个 tab item 为 flex 居中; 分隔线穿插在 tab 之间 |
+| 变体/状态 | property1: '1'|'2'|'3'|'4' 控制显示 1–4 个页签; 每个 tab 内部 property1: '选择'|'未选中' |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
+
+### SelecterTabs（选块页签）
+
+> Selecter Tabs 选块页签：胶囊容器内的页签切换，选中项白底高亮，未选中项融入灰色背景
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | 容器: p-2px rounded-4px; tab item: px-12px py-4px rounded-4px; 无固定宽度 |
+| 颜色 | 容器背景: rgba(25,25,25,0.05); 选中 tab: bg-white text #0067D1 font-medium; 未选中 tab: transparent text #191919 font-regular |
+| 布局 | flex row, items-center, p-2px; 每个 tab item 为 flex 居中，rounded-4px |
+| 变体/状态 | property1: '2'|'3'|'4'|'5' 控制显示 2–5 个页签; 每个 tab property1: true(选中)/false(未选中) |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
 
 ### Steps（步骤条）
 
@@ -378,8 +446,31 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 
 数字徽章：小红点直径 8px，背景 `#FF4D4F`，文字 `#FFFFFF`；超过 99 显示 99+；叠加在目标元素右上角。
 
+### Progress（进度条）
+
+> Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | 容器宽度: 227px (flex 可拉伸); 轨道高度: 4px rounded-30px; 进度条高度: 4px rounded-28px; label/操作文字: text-12px leading-20px |
+| 颜色 | 轨道背景: #DFDFDF; 进度填充: #0067D1; 标签文字: #191919; 操作链接(暂停/取消): #0067D1; 百分比: #191919 |
+| 布局 | flex col, items-start; 上行: label 左 + 操作链接 右 (justify-between pr-32px); 下行: 轨道 flex-1 + 百分比文字 gap-8px |
+| 变体/状态 | propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮 |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
+
 ### Toast（全局提示）
 
+> Toast全局提示为白色浮层卡片，宽269px，含状态图标、主文字、关闭按钮，可选描述行。
+
+| 属性 | 值 |
+|---|---|
+| 尺寸 | width 269px; padding 12px 16px; radius 8px; status-icon 14px; close-icon 8px |
+| 颜色 | background #FFFFFF; shadow 0px 8px 8px rgba(0,0,0,0.16); title #191919; description #777777 |
+| 布局 | flex col; gap 8px; header row justify-between [icon+title] and [close-icon]; optional description row with 22px left indent |
+| 变体/状态 | 普通 / 带描述（propValue）; Variant2 |
+
+_以上数据来自 Figma 自动采集，人工规范待补充。_
 
 ---
 
