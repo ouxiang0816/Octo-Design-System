@@ -1,0 +1,13 @@
+{
+  "name": "Octo-Design-System",
+  "owner": {
+    "name": "ouxiang0816"
+  },
+  "plugins": [
+    {
+      "name": "octo-design-system",
+      "source": ".",
+      "description": "Octo Designer 设计系统 — 用设计规范生成符合标准的 React + Tailwind UI 代码"
+    }
+  ]
+}

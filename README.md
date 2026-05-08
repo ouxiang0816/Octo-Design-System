@@ -31,3 +31,18 @@ npm run ds:check
 引用 `02-markdown文档/AI_REFERENCE.md`（自动生成，保持最新）。
 
 详细维护流程见 [02-markdown文档/HOWTO.md](02-markdown文档/HOWTO.md)。
+
+## Claude Code Skill 安装
+
+团队成员在 Claude Code 中执行以下两条命令即可：
+
+```shell
+/plugin marketplace add ouxiang0816/Octo-Design-System
+/plugin install octo-design-system@Octo-Design-System
+```
+
+安装后，让 Claude 生成 UI 时说「用 Octo 设计系统」即可自动触发，或直接输入：
+
+```shell
+/octo-design-system:use-octo-design-system
+```
