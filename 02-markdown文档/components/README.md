@@ -28,5 +28,5 @@
 | `component.steps` | Steps 步骤条 | [component.steps.md](component.steps.md) | `Steps` | `synced` |
 | `component.avatar` | Avatar 头像 | [component.avatar.md](component.avatar.md) | `Avatar` | `synced` |
 | `component.badge` | Badge 徽章 | [component.badge.md](component.badge.md) | `Badge` | `synced` |
-| `component.progress` | Progress | [component.progress.md](component.progress.md) | `Progress` | `synced` |
 | `component.toast-message` | Toast / Message 全局提示 | [component.toast-message.md](component.toast-message.md) | `Toast` | `synced` |
+| `component.progress` | Progress | [component.progress.md](component.progress.md) | `Progress` | `synced` |

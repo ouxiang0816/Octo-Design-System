@@ -1,0 +1,17 @@
+{
+  "name": "octo-design-system-hub",
+  "private": true,
+  "workspaces": [
+    "web",
+    "worker",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace web",
+    "build": "npm run build --workspace shared && npm run build --workspace worker && npm run build --workspace web",
+    "lint": "npm run lint --workspace web && npm run lint --workspace worker",
+    "worker:poll": "npm run poll --workspace worker",
+    "worker:run-job": "npm run run-job --workspace worker --",
+    "worker:import-excel": "npm run import-excel --workspace worker --"
+  }
+}

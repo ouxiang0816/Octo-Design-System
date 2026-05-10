@@ -23,7 +23,7 @@ export type DesignSystemEntry = {
   retrieval: { recommendedContextPaths: string[]; keywords: string[]; states: string[]; variantSummary: string }
 }
 
-export const syncGeneratedAt = "2026-05-08T11:16:54+00:00"
+export const syncGeneratedAt = "2026-05-10T14:44:08+00:00"
 export const designSystemCategories = [
   {
     "id": "foundation",
@@ -1289,7 +1289,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "basic",
     "name": "InputNumber",
     "cnName": "数字输入",
-    "status": "不要",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🔵 基础类",
     "sheetRow": 9,
@@ -1306,7 +1306,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "不要 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -1318,7 +1318,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.inputnumber",
         "InputNumber",
         "数字输入",
-        "不要",
+        "暂定",
         "基础类"
       ],
       "states": [],
@@ -2031,7 +2031,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Card",
     "cnName": "卡片",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 3,
@@ -2048,7 +2048,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2060,6 +2060,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.card",
         "Card",
         "卡片",
+        "暂定",
         "容器类"
       ],
       "states": [],
@@ -2151,7 +2152,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Collapse",
     "cnName": "折叠面板",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 5,
@@ -2168,7 +2169,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2180,6 +2181,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.collapse",
         "Collapse",
         "折叠面板",
+        "暂定",
         "容器类"
       ],
       "states": [],
@@ -2191,7 +2193,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Modal / Dialog",
     "cnName": "对话框",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 6,
@@ -2208,7 +2210,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2220,6 +2222,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.modal-dialog",
         "Modal / Dialog",
         "对话框",
+        "暂定",
         "容器类"
       ],
       "states": [],
@@ -2295,7 +2298,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Popover",
     "cnName": "气泡弹框",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 8,
@@ -2312,7 +2315,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2324,6 +2327,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.popover",
         "Popover",
         "气泡弹框",
+        "暂定",
         "容器类"
       ],
       "states": [],
@@ -2335,7 +2339,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Tooltip",
     "cnName": "文字提示",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 9,
@@ -2352,7 +2356,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2364,6 +2368,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.tooltip",
         "Tooltip",
         "文字提示",
+        "暂定",
         "容器类"
       ],
       "states": [],
@@ -2375,7 +2380,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Toolbar",
     "cnName": "工具栏",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 10,
@@ -2392,7 +2397,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2404,6 +2409,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.toolbar",
         "Toolbar",
         "工具栏",
+        "暂定",
         "容器类"
       ],
       "states": [],
@@ -2415,7 +2421,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "container",
     "name": "Split Panel",
     "cnName": "分割面板",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📦 容器类",
     "sheetRow": 11,
@@ -2432,7 +2438,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2444,7 +2450,90 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.split-panel",
         "Split Panel",
         "分割面板",
+        "暂定",
         "容器类"
+      ],
+      "states": [],
+      "variantSummary": ""
+    }
+  },
+  {
+    "id": "component.anchor",
+    "category": "navigation",
+    "name": "Anchor",
+    "cnName": "锚点导航",
+    "status": "暂定",
+    "figmaUrl": null,
+    "sheetName": "🧭 导航类",
+    "sheetRow": 3,
+    "md": null,
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": null,
+      "figmaContextPath": null,
+      "figmaScreenshotPath": null
+    },
+    "component": null,
+    "preview": null,
+    "syncStatus": "missing-md",
+    "syncError": "No matching component doc in 02-markdown文档/components/",
+    "management": {
+      "note": "空状态 -> 暂定"
+    },
+    "figma": null,
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/COMPONENTS.md"
+      ],
+      "keywords": [
+        "component.anchor",
+        "Anchor",
+        "锚点导航",
+        "暂定",
+        "导航类"
+      ],
+      "states": [],
+      "variantSummary": ""
+    }
+  },
+  {
+    "id": "component.back-button",
+    "category": "navigation",
+    "name": "Back Button",
+    "cnName": "返回按钮",
+    "status": "暂定",
+    "figmaUrl": null,
+    "sheetName": "🧭 导航类",
+    "sheetRow": 4,
+    "md": null,
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": null,
+      "figmaContextPath": null,
+      "figmaScreenshotPath": null
+    },
+    "component": null,
+    "preview": null,
+    "syncStatus": "missing-md",
+    "syncError": "No matching component doc in 02-markdown文档/components/",
+    "management": {
+      "note": "空状态 -> 暂定"
+    },
+    "figma": null,
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/COMPONENTS.md"
+      ],
+      "keywords": [
+        "component.back-button",
+        "Back Button",
+        "返回按钮",
+        "暂定",
+        "导航类"
       ],
       "states": [],
       "variantSummary": ""
@@ -2458,7 +2547,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 3,
+    "sheetRow": 5,
     "md": {
       "file": "02-markdown文档/components/component.top-navigation.md",
       "path": "02-markdown文档/components/component.top-navigation.md",
@@ -2522,7 +2611,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=17-1305&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 4,
+    "sheetRow": 6,
     "md": {
       "file": "02-markdown文档/components/component.side-navigation.md",
       "path": "02-markdown文档/components/component.side-navigation.md",
@@ -2602,7 +2691,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-1214&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 5,
+    "sheetRow": 7,
     "md": {
       "file": "02-markdown文档/components/component.breadcrumb.md",
       "path": "02-markdown文档/components/component.breadcrumb.md",
@@ -2681,7 +2770,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=278-561&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 6,
+    "sheetRow": 8,
     "md": {
       "file": "02-markdown文档/components/component.tabs.md",
       "path": "02-markdown文档/components/component.tabs.md",
@@ -2762,7 +2851,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "新增",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=747-284&t=c3kqE9nJlM81M4uv-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 7,
+    "sheetRow": 9,
     "md": {
       "file": "02-markdown文档/components/component.split-tabs.md",
       "path": "02-markdown文档/components/component.split-tabs.md",
@@ -2842,7 +2931,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "新增",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=747-387&t=c3kqE9nJlM81M4uv-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 8,
+    "sheetRow": 10,
     "md": {
       "file": "02-markdown文档/components/component.selecter-tabs.md",
       "path": "02-markdown文档/components/component.selecter-tabs.md",
@@ -2919,10 +3008,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Dropdown Menu",
     "cnName": "下拉菜单",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 9,
+    "sheetRow": 11,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -2936,7 +3025,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2948,6 +3037,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.dropdown-menu",
         "Dropdown Menu",
         "下拉菜单",
+        "暂定",
         "导航类"
       ],
       "states": [],
@@ -2959,10 +3049,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "navigation",
     "name": "Pagination",
     "cnName": "分页器",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🧭 导航类",
-    "sheetRow": 10,
+    "sheetRow": 12,
     "md": null,
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
@@ -2976,7 +3066,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -2988,6 +3078,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.pagination",
         "Pagination",
         "分页器",
+        "暂定",
         "导航类"
       ],
       "states": [],
@@ -3002,7 +3093,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "需要",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=112-382&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🧭 导航类",
-    "sheetRow": 11,
+    "sheetRow": 13,
     "md": {
       "file": "02-markdown文档/components/component.steps.md",
       "path": "02-markdown文档/components/component.steps.md",
@@ -3080,91 +3171,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.back-button",
-    "category": "navigation",
-    "name": "Back Button",
-    "cnName": "返回按钮",
-    "status": "",
-    "figmaUrl": null,
-    "sheetName": "🧭 导航类",
-    "sheetRow": 12,
-    "md": null,
-    "docs": {
-      "basePath": "02-markdown文档/BASE.md",
-      "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": null,
-      "figmaContextPath": null,
-      "figmaScreenshotPath": null
-    },
-    "component": null,
-    "preview": null,
-    "syncStatus": "missing-md",
-    "syncError": "No matching component doc in 02-markdown文档/components/",
-    "management": {
-      "note": ""
-    },
-    "figma": null,
-    "retrieval": {
-      "recommendedContextPaths": [
-        "02-markdown文档/BASE.md",
-        "02-markdown文档/COMPONENTS.md"
-      ],
-      "keywords": [
-        "component.back-button",
-        "Back Button",
-        "返回按钮",
-        "导航类"
-      ],
-      "states": [],
-      "variantSummary": ""
-    }
-  },
-  {
-    "id": "component.anchor",
-    "category": "navigation",
-    "name": "Anchor",
-    "cnName": "锚点导航",
-    "status": "",
-    "figmaUrl": null,
-    "sheetName": "🧭 导航类",
-    "sheetRow": 13,
-    "md": null,
-    "docs": {
-      "basePath": "02-markdown文档/BASE.md",
-      "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": null,
-      "figmaContextPath": null,
-      "figmaScreenshotPath": null
-    },
-    "component": null,
-    "preview": null,
-    "syncStatus": "missing-md",
-    "syncError": "No matching component doc in 02-markdown文档/components/",
-    "management": {
-      "note": ""
-    },
-    "figma": null,
-    "retrieval": {
-      "recommendedContextPaths": [
-        "02-markdown文档/BASE.md",
-        "02-markdown文档/COMPONENTS.md"
-      ],
-      "keywords": [
-        "component.anchor",
-        "Anchor",
-        "锚点导航",
-        "导航类"
-      ],
-      "states": [],
-      "variantSummary": ""
-    }
-  },
-  {
-    "id": "component.form",
+    "id": "component.form-item",
     "category": "form",
-    "name": "Form",
-    "cnName": "表单容器",
-    "status": "",
+    "name": "Form Item",
+    "cnName": "表单项",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📝 表单类",
     "sheetRow": 3,
@@ -3181,7 +3192,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3190,9 +3201,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.form",
-        "Form",
-        "表单容器",
+        "component.form-item",
+        "Form Item",
+        "表单项",
+        "暂定",
         "表单类"
       ],
       "states": [],
@@ -3200,11 +3212,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.form-item",
+    "id": "component.校验状态-validation",
     "category": "form",
-    "name": "Form Item",
-    "cnName": "表单项",
-    "status": "",
+    "name": "Validation",
+    "cnName": "校验状态",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📝 表单类",
     "sheetRow": 4,
@@ -3221,7 +3233,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3230,9 +3242,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.form-item",
-        "Form Item",
-        "表单项",
+        "component.校验状态-validation",
+        "Validation",
+        "校验状态",
+        "暂定",
         "表单类"
       ],
       "states": [],
@@ -3240,11 +3253,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.校验状态-validation",
+    "id": "component.help-text",
     "category": "form",
-    "name": "Validation",
-    "cnName": "校验状态",
-    "status": "",
+    "name": "Help Text",
+    "cnName": "帮助文字",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📝 表单类",
     "sheetRow": 5,
@@ -3261,7 +3274,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3270,9 +3283,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.校验状态-validation",
-        "Validation",
-        "校验状态",
+        "component.help-text",
+        "Help Text",
+        "帮助文字",
+        "暂定",
         "表单类"
       ],
       "states": [],
@@ -3280,11 +3294,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.help-text",
+    "id": "component.form",
     "category": "form",
-    "name": "Help Text",
-    "cnName": "帮助文字",
-    "status": "",
+    "name": "Form",
+    "cnName": "表单容器",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📝 表单类",
     "sheetRow": 6,
@@ -3301,7 +3315,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3310,9 +3324,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.help-text",
-        "Help Text",
-        "帮助文字",
+        "component.form",
+        "Form",
+        "表单容器",
+        "暂定",
         "表单类"
       ],
       "states": [],
@@ -3320,11 +3335,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.table",
+    "id": "component.list",
     "category": "data-display",
-    "name": "Table",
-    "cnName": "表格",
-    "status": "",
+    "name": "List",
+    "cnName": "列表",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 3,
@@ -3341,7 +3356,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3350,9 +3365,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.table",
-        "Table",
-        "表格",
+        "component.list",
+        "List",
+        "列表",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
@@ -3360,11 +3376,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.list",
+    "id": "component.table",
     "category": "data-display",
-    "name": "List",
-    "cnName": "列表",
-    "status": "",
+    "name": "Table",
+    "cnName": "表格",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 4,
@@ -3381,7 +3397,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3390,9 +3406,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.list",
-        "List",
-        "列表",
+        "component.table",
+        "Table",
+        "表格",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
@@ -3404,7 +3421,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "data-display",
     "name": "Tree",
     "cnName": "树形控件",
-    "status": "",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 5,
@@ -3421,7 +3438,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3433,6 +3450,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.tree",
         "Tree",
         "树形控件",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
@@ -3444,7 +3462,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "data-display",
     "name": "Avatar",
     "cnName": "头像",
-    "status": "✓ 已有",
+    "status": "已有",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 6,
@@ -3478,7 +3496,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "synced",
     "syncError": "",
     "management": {
-      "note": ""
+      "note": "✓ 已有 -> 已有"
     },
     "figma": null,
     "retrieval": {
@@ -3492,7 +3510,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.avatar",
         "Avatar",
         "头像",
-        "✓ 已有",
+        "已有",
         "数据展示类",
         "Avatar 头像"
       ],
@@ -3507,7 +3525,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "data-display",
     "name": "Badge",
     "cnName": "徽章",
-    "status": "✓ 已有",
+    "status": "已有",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 7,
@@ -3541,7 +3559,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "synced",
     "syncError": "",
     "management": {
-      "note": ""
+      "note": "✓ 已有 -> 已有"
     },
     "figma": null,
     "retrieval": {
@@ -3555,7 +3573,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.badge",
         "Badge",
         "徽章",
-        "✓ 已有",
+        "已有",
         "数据展示类",
         "Badge 徽章"
       ],
@@ -3570,7 +3588,48 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "category": "data-display",
     "name": "Statistic",
     "cnName": "指标块",
-    "status": "",
+    "status": "暂定",
+    "figmaUrl": null,
+    "sheetName": "📊 数据展示类",
+    "sheetRow": 8,
+    "md": null,
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": null,
+      "figmaContextPath": null,
+      "figmaScreenshotPath": null
+    },
+    "component": null,
+    "preview": null,
+    "syncStatus": "missing-md",
+    "syncError": "No matching component doc in 02-markdown文档/components/",
+    "management": {
+      "note": "空状态 -> 暂定"
+    },
+    "figma": null,
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/COMPONENTS.md"
+      ],
+      "keywords": [
+        "component.statistic",
+        "Statistic",
+        "指标块",
+        "暂定",
+        "数据展示类"
+      ],
+      "states": [],
+      "variantSummary": ""
+    }
+  },
+  {
+    "id": "component.empty-state",
+    "category": "data-display",
+    "name": "Empty State",
+    "cnName": "空状态",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 9,
@@ -3587,7 +3646,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3596,9 +3655,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.statistic",
-        "Statistic",
-        "指标块",
+        "component.empty-state",
+        "Empty State",
+        "空状态",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
@@ -3606,11 +3666,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.empty-state",
+    "id": "component.skeleton",
     "category": "data-display",
-    "name": "Empty State",
-    "cnName": "空状态",
-    "status": "",
+    "name": "Skeleton",
+    "cnName": "骨架屏",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 10,
@@ -3627,7 +3687,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3636,9 +3696,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.empty-state",
-        "Empty State",
-        "空状态",
+        "component.skeleton",
+        "Skeleton",
+        "骨架屏",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
@@ -3646,11 +3707,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.skeleton",
+    "id": "component.descriptions",
     "category": "data-display",
-    "name": "Skeleton",
-    "cnName": "骨架屏",
-    "status": "",
+    "name": "Descriptions",
+    "cnName": "描述列表",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 11,
@@ -3667,7 +3728,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3676,9 +3737,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.skeleton",
-        "Skeleton",
-        "骨架屏",
+        "component.descriptions",
+        "Descriptions",
+        "描述列表",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
@@ -3686,11 +3748,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.descriptions",
+    "id": "component.divider",
     "category": "data-display",
-    "name": "Descriptions",
-    "cnName": "描述列表",
-    "status": "",
+    "name": "Divider",
+    "cnName": "分隔线",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "📊 数据展示类",
     "sheetRow": 12,
@@ -3707,47 +3769,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
-    },
-    "figma": null,
-    "retrieval": {
-      "recommendedContextPaths": [
-        "02-markdown文档/BASE.md",
-        "02-markdown文档/COMPONENTS.md"
-      ],
-      "keywords": [
-        "component.descriptions",
-        "Descriptions",
-        "描述列表",
-        "数据展示类"
-      ],
-      "states": [],
-      "variantSummary": ""
-    }
-  },
-  {
-    "id": "component.divider",
-    "category": "data-display",
-    "name": "Divider",
-    "cnName": "分隔线",
-    "status": "",
-    "figmaUrl": null,
-    "sheetName": "📊 数据展示类",
-    "sheetRow": 13,
-    "md": null,
-    "docs": {
-      "basePath": "02-markdown文档/BASE.md",
-      "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": null,
-      "figmaContextPath": null,
-      "figmaScreenshotPath": null
-    },
-    "component": null,
-    "preview": null,
-    "syncStatus": "missing-md",
-    "syncError": "No matching component doc in 02-markdown文档/components/",
-    "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3759,128 +3781,11 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "component.divider",
         "Divider",
         "分隔线",
+        "暂定",
         "数据展示类"
       ],
       "states": [],
       "variantSummary": ""
-    }
-  },
-  {
-    "id": "component.alert",
-    "category": "feedback",
-    "name": "Alert",
-    "cnName": "行内提示",
-    "status": "",
-    "figmaUrl": null,
-    "sheetName": "🔔 反馈类",
-    "sheetRow": 3,
-    "md": null,
-    "docs": {
-      "basePath": "02-markdown文档/BASE.md",
-      "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": null,
-      "figmaContextPath": null,
-      "figmaScreenshotPath": null
-    },
-    "component": null,
-    "preview": null,
-    "syncStatus": "missing-md",
-    "syncError": "No matching component doc in 02-markdown文档/components/",
-    "management": {
-      "note": ""
-    },
-    "figma": null,
-    "retrieval": {
-      "recommendedContextPaths": [
-        "02-markdown文档/BASE.md",
-        "02-markdown文档/COMPONENTS.md"
-      ],
-      "keywords": [
-        "component.alert",
-        "Alert",
-        "行内提示",
-        "反馈类"
-      ],
-      "states": [],
-      "variantSummary": ""
-    }
-  },
-  {
-    "id": "component.progress",
-    "category": "feedback",
-    "name": "Progress",
-    "cnName": "进度条",
-    "status": "新增",
-    "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4",
-    "sheetName": "🔔 反馈类",
-    "sheetRow": 4,
-    "md": {
-      "file": "02-markdown文档/components/component.progress.md",
-      "path": "02-markdown文档/components/component.progress.md",
-      "title": "Progress",
-      "anchor": "progress",
-      "line": 6,
-      "summary": "> Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
-    },
-    "docs": {
-      "basePath": "02-markdown文档/BASE.md",
-      "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": "02-markdown文档/components/component.progress.md",
-      "figmaContextPath": "02-markdown文档/figma/component.progress.context.json",
-      "figmaScreenshotPath": "02-markdown文档/figma/component.progress.screenshot.png"
-    },
-    "component": {
-      "exportName": "Progress",
-      "path": "03-开发组件/components.tsx",
-      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
-    },
-    "preview": {
-      "anchor": "progress",
-      "group": "反馈类",
-      "states": [
-        "default"
-      ]
-    },
-    "syncStatus": "synced",
-    "syncError": "",
-    "management": {
-      "note": ""
-    },
-    "figma": {
-      "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
-      "nodeId": "748:456",
-      "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4",
-      "contextPath": "02-markdown文档/figma/component.progress.context.json",
-      "screenshotPath": "02-markdown文档/figma/component.progress.screenshot.png",
-      "hasContext": true,
-      "hasScreenshot": true,
-      "summary": "Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随",
-      "extracted": {
-        "size": "容器宽度: 227px (flex 可拉伸); 轨道高度: 4px rounded-30px; 进度条高度: 4px rounded-28px; label/操作文字: text-12px leading-20px",
-        "colors": "轨道背景: #DFDFDF; 进度填充: #0067D1; 标签文字: #191919; 操作链接(暂停/取消): #0067D1; 百分比: #191919",
-        "layout": "flex col, items-start; 上行: label 左 + 操作链接 右 (justify-between pr-32px); 下行: 轨道 flex-1 + 百分比文字 gap-8px",
-        "variants": "propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮"
-      }
-    },
-    "retrieval": {
-      "recommendedContextPaths": [
-        "02-markdown文档/BASE.md",
-        "02-markdown文档/components/component.progress.md",
-        "02-markdown文档/figma/component.progress.context.json",
-        "03-开发组件/components.tsx",
-        "04-预览网站/src/interactiveDemos.tsx"
-      ],
-      "keywords": [
-        "component.progress",
-        "Progress",
-        "进度条",
-        "新增",
-        "反馈类"
-      ],
-      "states": [
-        "default"
-      ],
-      "variantSummary": "propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮"
     }
   },
   {
@@ -3891,7 +3796,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "status": "已有",
     "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=493-350&t=MwJLOtifyWl4Xd53-4",
     "sheetName": "🔔 反馈类",
-    "sheetRow": 5,
+    "sheetRow": 3,
     "md": {
       "file": "02-markdown文档/components/component.toast-message.md",
       "path": "02-markdown文档/components/component.toast-message.md",
@@ -3964,11 +3869,93 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.notification",
+    "id": "component.spin-loading",
     "category": "feedback",
-    "name": "Notification",
-    "cnName": "通知提醒",
-    "status": "",
+    "name": "Spin / Loading",
+    "cnName": "加载",
+    "status": "暂定",
+    "figmaUrl": null,
+    "sheetName": "🔔 反馈类",
+    "sheetRow": 4,
+    "md": null,
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": null,
+      "figmaContextPath": null,
+      "figmaScreenshotPath": null
+    },
+    "component": null,
+    "preview": null,
+    "syncStatus": "missing-md",
+    "syncError": "No matching component doc in 02-markdown文档/components/",
+    "management": {
+      "note": "空状态 -> 暂定"
+    },
+    "figma": null,
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/COMPONENTS.md"
+      ],
+      "keywords": [
+        "component.spin-loading",
+        "Spin / Loading",
+        "加载",
+        "暂定",
+        "反馈类"
+      ],
+      "states": [],
+      "variantSummary": ""
+    }
+  },
+  {
+    "id": "component.popconfirm",
+    "category": "feedback",
+    "name": "Popconfirm",
+    "cnName": "气泡确认",
+    "status": "暂定",
+    "figmaUrl": null,
+    "sheetName": "🔔 反馈类",
+    "sheetRow": 5,
+    "md": null,
+    "docs": {
+      "basePath": "02-markdown文档/BASE.md",
+      "aggregatePath": "02-markdown文档/COMPONENTS.md",
+      "componentPath": null,
+      "figmaContextPath": null,
+      "figmaScreenshotPath": null
+    },
+    "component": null,
+    "preview": null,
+    "syncStatus": "missing-md",
+    "syncError": "No matching component doc in 02-markdown文档/components/",
+    "management": {
+      "note": "空状态 -> 暂定"
+    },
+    "figma": null,
+    "retrieval": {
+      "recommendedContextPaths": [
+        "02-markdown文档/BASE.md",
+        "02-markdown文档/COMPONENTS.md"
+      ],
+      "keywords": [
+        "component.popconfirm",
+        "Popconfirm",
+        "气泡确认",
+        "暂定",
+        "反馈类"
+      ],
+      "states": [],
+      "variantSummary": ""
+    }
+  },
+  {
+    "id": "component.alert",
+    "category": "feedback",
+    "name": "Alert",
+    "cnName": "行内提示",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🔔 反馈类",
     "sheetRow": 6,
@@ -3985,7 +3972,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -3994,9 +3981,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.notification",
-        "Notification",
-        "通知提醒",
+        "component.alert",
+        "Alert",
+        "行内提示",
+        "暂定",
         "反馈类"
       ],
       "states": [],
@@ -4004,51 +3992,89 @@ export const designSystemEntries: DesignSystemEntry[] = [
     }
   },
   {
-    "id": "component.spin-loading",
+    "id": "component.progress",
     "category": "feedback",
-    "name": "Spin / Loading",
-    "cnName": "加载",
-    "status": "",
-    "figmaUrl": null,
+    "name": "Progress",
+    "cnName": "进度条",
+    "status": "新增",
+    "figmaUrl": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4",
     "sheetName": "🔔 反馈类",
     "sheetRow": 7,
-    "md": null,
+    "md": {
+      "file": "02-markdown文档/components/component.progress.md",
+      "path": "02-markdown文档/components/component.progress.md",
+      "title": "Progress",
+      "anchor": "progress",
+      "line": 6,
+      "summary": "> Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。"
+    },
     "docs": {
       "basePath": "02-markdown文档/BASE.md",
       "aggregatePath": "02-markdown文档/COMPONENTS.md",
-      "componentPath": null,
-      "figmaContextPath": null,
-      "figmaScreenshotPath": null
+      "componentPath": "02-markdown文档/components/component.progress.md",
+      "figmaContextPath": "02-markdown文档/figma/component.progress.context.json",
+      "figmaScreenshotPath": "02-markdown文档/figma/component.progress.screenshot.png"
     },
-    "component": null,
-    "preview": null,
-    "syncStatus": "missing-md",
-    "syncError": "No matching component doc in 02-markdown文档/components/",
+    "component": {
+      "exportName": "Progress",
+      "path": "03-开发组件/components.tsx",
+      "examplePath": "04-预览网站/src/interactiveDemos.tsx"
+    },
+    "preview": {
+      "anchor": "progress",
+      "group": "反馈类",
+      "states": [
+        "default"
+      ]
+    },
+    "syncStatus": "synced",
+    "syncError": "",
     "management": {
       "note": ""
     },
-    "figma": null,
+    "figma": {
+      "fileKey": "UuRaxW6YNJVqnaxq0ihi6S",
+      "nodeId": "748:456",
+      "url": "https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4",
+      "contextPath": "02-markdown文档/figma/component.progress.context.json",
+      "screenshotPath": "02-markdown文档/figma/component.progress.screenshot.png",
+      "hasContext": true,
+      "hasScreenshot": true,
+      "summary": "Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随",
+      "extracted": {
+        "size": "容器宽度: 227px (flex 可拉伸); 轨道高度: 4px rounded-30px; 进度条高度: 4px rounded-28px; label/操作文字: text-12px leading-20px",
+        "colors": "轨道背景: #DFDFDF; 进度填充: #0067D1; 标签文字: #191919; 操作链接(暂停/取消): #0067D1; 百分比: #191919",
+        "layout": "flex col, items-start; 上行: label 左 + 操作链接 右 (justify-between pr-32px); 下行: 轨道 flex-1 + 百分比文字 gap-8px",
+        "variants": "propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮"
+      }
+    },
     "retrieval": {
       "recommendedContextPaths": [
         "02-markdown文档/BASE.md",
-        "02-markdown文档/COMPONENTS.md"
+        "02-markdown文档/components/component.progress.md",
+        "02-markdown文档/figma/component.progress.context.json",
+        "03-开发组件/components.tsx",
+        "04-预览网站/src/interactiveDemos.tsx"
       ],
       "keywords": [
-        "component.spin-loading",
-        "Spin / Loading",
-        "加载",
+        "component.progress",
+        "Progress",
+        "进度条",
+        "新增",
         "反馈类"
       ],
-      "states": [],
-      "variantSummary": ""
+      "states": [
+        "default"
+      ],
+      "variantSummary": "propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮"
     }
   },
   {
-    "id": "component.popconfirm",
+    "id": "component.notification",
     "category": "feedback",
-    "name": "Popconfirm",
-    "cnName": "气泡确认",
-    "status": "",
+    "name": "Notification",
+    "cnName": "通知提醒",
+    "status": "暂定",
     "figmaUrl": null,
     "sheetName": "🔔 反馈类",
     "sheetRow": 8,
@@ -4065,7 +4091,7 @@ export const designSystemEntries: DesignSystemEntry[] = [
     "syncStatus": "missing-md",
     "syncError": "No matching component doc in 02-markdown文档/components/",
     "management": {
-      "note": ""
+      "note": "空状态 -> 暂定"
     },
     "figma": null,
     "retrieval": {
@@ -4074,9 +4100,10 @@ export const designSystemEntries: DesignSystemEntry[] = [
         "02-markdown文档/COMPONENTS.md"
       ],
       "keywords": [
-        "component.popconfirm",
-        "Popconfirm",
-        "气泡确认",
+        "component.notification",
+        "Notification",
+        "通知提醒",
+        "暂定",
         "反馈类"
       ],
       "states": [],

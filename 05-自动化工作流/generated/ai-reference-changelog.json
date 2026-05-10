@@ -84,5 +84,39 @@
       "顶部导航",
       "步进器"
     ]
+  },
+  {
+    "timestamp": "2026-05-10 14:44 UTC",
+    "total": 25,
+    "componentIds": [
+      "component.avatar",
+      "component.badge",
+      "component.breadcrumb",
+      "component.button",
+      "component.checkbox",
+      "component.drawer-sheet",
+      "component.file-card",
+      "component.file-upload",
+      "component.icon-button",
+      "component.input",
+      "component.progress",
+      "component.radio",
+      "component.search",
+      "component.select",
+      "component.selecter-tabs",
+      "component.side-navigation",
+      "component.split-tabs",
+      "component.steps",
+      "component.switch",
+      "component.tabs",
+      "component.tag-chip",
+      "component.text-link",
+      "component.toast-message",
+      "component.top-navigation",
+      "component.步进器"
+    ],
+    "added": [],
+    "removed": [],
+    "addedLabels": []
   }
 ]

@@ -1,0 +1,57 @@
+name: Octo Hub Sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "sync_jobs.id"
+        required: true
+        type: string
+  repository_dispatch:
+    types:
+      - octo-hub-sync-job
+
+jobs:
+  run-sync-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependency
+        run: python -m pip install openpyxl
+
+      - name: Install preview dependencies
+        run: npm install
+        working-directory: 04-预览网站
+
+      - name: Install hub dependencies
+        run: npm install
+        working-directory: 06-在线协作中心
+
+      - name: Resolve job id
+        id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "job_id=${{ inputs.job_id }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "job_id=${{ github.event.client_payload.job_id }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run worker job
+        run: npm run worker:run-job -- --job-id ${{ steps.resolve.outputs.job_id }}
+        working-directory: 06-在线协作中心
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

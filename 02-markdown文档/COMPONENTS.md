@@ -700,35 +700,6 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 
 ---
 
-## Progress
-
-<!-- DS_AUTO_START component.progress -->
-
-### Figma 自动采集
-
-> Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随
-
-| 项目 | 内容 |
-|---|---|
-| 来源 | https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4 |
-| Figma 节点 | 748:456 |
-| 缓存 | 02-markdown文档/figma/component.progress.context.json |
-| 截图 | 02-markdown文档/figma/component.progress.screenshot.png |
-| 尺寸 | 容器宽度: 227px (flex 可拉伸); 轨道高度: 4px rounded-30px; 进度条高度: 4px rounded-28px; label/操作文字: text-12px leading-20px |
-| 颜色 | 轨道背景: #DFDFDF; 进度填充: #0067D1; 标签文字: #191919; 操作链接(暂停/取消): #0067D1; 百分比: #191919 |
-| 布局 | flex col, items-start; 上行: label 左 + 操作链接 右 (justify-between pr-32px); 下行: 轨道 flex-1 + 百分比文字 gap-8px |
-| 变体/状态 | propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮 |
-
-<!-- DS_AUTO_END component.progress -->
-
-<!-- DS_MANUAL_START component.progress -->
-
-人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。
-
-<!-- DS_MANUAL_END component.progress -->
-
----
-
 ## Toast / Message 全局提示
 
 <!-- DS_AUTO_START component.toast-message -->
@@ -755,6 +726,35 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。
 
 <!-- DS_MANUAL_END component.toast-message -->
+
+---
+
+## Progress
+
+<!-- DS_AUTO_START component.progress -->
+
+### Figma 自动采集
+
+> Progress 进度条：水平进度轨道 + 标签行，支持显示/隐藏操作按钮（暂停/取消），百分比文字右侧跟随
+
+| 项目 | 内容 |
+|---|---|
+| 来源 | https://www.figma.com/design/UuRaxW6YNJVqnaxq0ihi6S/Octo-Designer?node-id=748-456&t=c3kqE9nJlM81M4uv-4 |
+| Figma 节点 | 748:456 |
+| 缓存 | 02-markdown文档/figma/component.progress.context.json |
+| 截图 | 02-markdown文档/figma/component.progress.screenshot.png |
+| 尺寸 | 容器宽度: 227px (flex 可拉伸); 轨道高度: 4px rounded-30px; 进度条高度: 4px rounded-28px; label/操作文字: text-12px leading-20px |
+| 颜色 | 轨道背景: #DFDFDF; 进度填充: #0067D1; 标签文字: #191919; 操作链接(暂停/取消): #0067D1; 百分比: #191919 |
+| 布局 | flex col, items-start; 上行: label 左 + 操作链接 右 (justify-between pr-32px); 下行: 轨道 flex-1 + 百分比文字 gap-8px |
+| 变体/状态 | propValue: true 显示操作按钮(暂停/取消); false 隐藏操作按钮 |
+
+<!-- DS_AUTO_END component.progress -->
+
+<!-- DS_MANUAL_START component.progress -->
+
+人工补充区：如需补充业务语义、特殊交互或实现注意事项，请写在此区块内。
+
+<!-- DS_MANUAL_END component.progress -->
 
 ---
 
@@ -792,6 +792,8 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 | `component.tooltip` | Tooltip 文字提示 | — | — | — | `missing-md` |
 | `component.toolbar` | Toolbar 工具栏 | — | — | — | `missing-md` |
 | `component.split-panel` | Split Panel 分割面板 | — | — | — | `missing-md` |
+| `component.anchor` | Anchor 锚点导航 | — | — | — | `missing-md` |
+| `component.back-button` | Back Button 返回按钮 | — | — | — | `missing-md` |
 | `component.top-navigation` | Top Navigation 顶部导航 | [Top Navigation 顶部导航](#top-navigation) | `TopNavigation` | `#top-navigation` | `synced` |
 | `component.side-navigation` | Side Navigation 侧边导航 | [Side Navigation 侧边导航](#side-navigation) | `SideNavigation` | `#side-navigation` | `synced` |
 | `component.breadcrumb` | Breadcrumb 面包屑 | [Breadcrumb 面包屑](#breadcrumb) | `Breadcrumb` | `#breadcrumb` | `synced` |
@@ -801,14 +803,12 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 | `component.dropdown-menu` | Dropdown Menu 下拉菜单 | — | — | — | `missing-md` |
 | `component.pagination` | Pagination 分页器 | — | — | — | `missing-md` |
 | `component.steps` | Steps 步骤条 | [Steps 步骤条](#steps) | `Steps` | `#steps` | `synced` |
-| `component.back-button` | Back Button 返回按钮 | — | — | — | `missing-md` |
-| `component.anchor` | Anchor 锚点导航 | — | — | — | `missing-md` |
-| `component.form` | Form 表单容器 | — | — | — | `missing-md` |
 | `component.form-item` | Form Item 表单项 | — | — | — | `missing-md` |
 | `component.校验状态-validation` | Validation 校验状态 | — | — | — | `missing-md` |
 | `component.help-text` | Help Text 帮助文字 | — | — | — | `missing-md` |
-| `component.table` | Table 表格 | — | — | — | `missing-md` |
+| `component.form` | Form 表单容器 | — | — | — | `missing-md` |
 | `component.list` | List 列表 | — | — | — | `missing-md` |
+| `component.table` | Table 表格 | — | — | — | `missing-md` |
 | `component.tree` | Tree 树形控件 | — | — | — | `missing-md` |
 | `component.avatar` | Avatar 头像 | [Avatar 头像](#avatar) | `Avatar` | `#avatar` | `synced` |
 | `component.badge` | Badge 徽章 | [Badge 徽章](#badge) | `Badge` | `#badge` | `synced` |
@@ -817,11 +817,11 @@ https://raw.githubusercontent.com/ouxiang0816/Octo-Design-System/main/03-%E5%BC%
 | `component.skeleton` | Skeleton 骨架屏 | — | — | — | `missing-md` |
 | `component.descriptions` | Descriptions 描述列表 | — | — | — | `missing-md` |
 | `component.divider` | Divider 分隔线 | — | — | — | `missing-md` |
-| `component.alert` | Alert 行内提示 | — | — | — | `missing-md` |
-| `component.progress` | Progress 进度条 | [Progress](#progress) | `Progress` | `#progress` | `synced` |
 | `component.toast-message` | Toast / Message 全局提示 | [Toast / Message 全局提示](#toast-message) | `Toast` | `#toast-message` | `synced` |
-| `component.notification` | Notification 通知提醒 | — | — | — | `missing-md` |
 | `component.spin-loading` | Spin / Loading 加载 | — | — | — | `missing-md` |
 | `component.popconfirm` | Popconfirm 气泡确认 | — | — | — | `missing-md` |
+| `component.alert` | Alert 行内提示 | — | — | — | `missing-md` |
+| `component.progress` | Progress 进度条 | [Progress](#progress) | `Progress` | `#progress` | `synced` |
+| `component.notification` | Notification 通知提醒 | — | — | — | `missing-md` |
 
 <!-- DS_SYNC_INDEX_END -->

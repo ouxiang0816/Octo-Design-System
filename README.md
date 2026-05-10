@@ -32,6 +32,17 @@ npm run ds:check
 
 详细维护流程见 [02-markdown文档/HOWTO.md](02-markdown文档/HOWTO.md)。
 
+## 在线协作中心
+
+团队内部协作版已单独放在 [06-在线协作中心/README.md](06-在线协作中心/README.md)。
+
+该目录负责：
+
+- 在线表单维护组件状态
+- 自动 / 手动创建同步任务
+- 调用现有 `05-自动化工作流/` 脚本更新规范和预览
+- 将代码评审需求转成 `codegen_pr` 任务
+
 ## Claude Code Skill 安装
 
 团队成员在 Claude Code 中执行以下两条命令即可：

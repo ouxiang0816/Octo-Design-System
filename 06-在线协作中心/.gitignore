@@ -1,0 +1,9 @@
+node_modules/
+web/.next/
+worker/dist/
+shared/dist/
+shared/src/*.js
+.env
+.env.*
+web/.env.local
+worker/.env
