@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import path from "node:path";
 import { spawn } from "node:child_process";
 import XLSX from "xlsx";
 import { componentIdFromNames, needsAutoSync, type ComponentRecord, type SyncJob } from "@octo-hub/shared";
@@ -107,6 +108,7 @@ async function fetchComponents(job: SyncJob) {
 
 async function writeExcelSource(jobId: string, components: ComponentRecord[]) {
   const workbook = buildWorkbookFromComponents(components);
+  await fs.mkdir(path.dirname(excelPath), { recursive: true });
   XLSX.writeFile(workbook, excelPath);
   await appendLog(jobId, "excel", "info", "Rebuilt source workbook from component_records", {
     componentCount: components.length,
