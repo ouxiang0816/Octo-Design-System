@@ -28,8 +28,11 @@ __pycache__/
 # Figma 缓存（截图 + context JSON，仅同步脚本使用）
 02-markdown文档/figma/
 
-# 维护脚本（内部工具链，team skill 不依赖）
-05-自动化工作流/scripts/
+# 维护脚本（默认不分发；保留同步构建所需脚本）
+05-自动化工作流/scripts/*
+!05-自动化工作流/scripts/
+!05-自动化工作流/scripts/sync_design_system.py
+!05-自动化工作流/scripts/inline-visual-guide.mjs
 
 # 本地备份
 02-markdown文档/figma/
